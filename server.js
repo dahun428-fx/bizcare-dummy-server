@@ -274,6 +274,32 @@ app.get('/api/board', async (req, res) => {
 
         const total = filteredList.length;
 
+        // 현재 요청의 도메인 정보 생성
+        const protocol = req.protocol;
+        const host = req.get('host');
+        const baseUrl = `${protocol}://${host}`;
+
+        // 각 게시글의 thumbnail과 attachments URL에 도메인 추가
+        filteredList = filteredList.map(item => {
+            const updatedItem = { ...item };
+
+            // thumbnail URL 처리
+            if (updatedItem.thumbnail && updatedItem.thumbnail.startsWith('/')) {
+                updatedItem.thumbnail = `${baseUrl}${updatedItem.thumbnail}`;
+            }
+
+            // attachments URL 처리
+            if (updatedItem.attachments && updatedItem.attachments.length > 0) {
+                updatedItem.attachments = updatedItem.attachments.map(att => ({
+                    ...att,
+                    url: att.url && att.url.startsWith('/') ? `${baseUrl}${att.url}` : att.url,
+                    download_url: att.download_url && att.download_url.startsWith('/') ? `${baseUrl}${att.download_url}` : att.download_url
+                }));
+            }
+
+            return updatedItem;
+        });
+
         // 페이지네이션 처리
         if (page && limit) {
             const pageNum = parseInt(page);
@@ -281,11 +307,11 @@ app.get('/api/board', async (req, res) => {
             const startIndex = (pageNum - 1) * limitNum;
             const endIndex = startIndex + limitNum;
 
-            filteredList = filteredList.slice(startIndex, endIndex);
+            const paginatedList = filteredList.slice(startIndex, endIndex);
 
             res.json({
                 success: true,
-                data: filteredList,
+                data: paginatedList,
                 pagination: {
                     currentPage: pageNum,
                     totalPages: Math.ceil(total / limitNum),
@@ -410,6 +436,32 @@ app.get('/api/admin/board', async (req, res) => {
 
         const total = filteredList.length;
 
+        // 현재 요청의 도메인 정보 생성
+        const protocol = req.protocol;
+        const host = req.get('host');
+        const baseUrl = `${protocol}://${host}`;
+
+        // 각 게시글의 thumbnail과 attachments URL에 도메인 추가
+        filteredList = filteredList.map(item => {
+            const updatedItem = { ...item };
+
+            // thumbnail URL 처리
+            if (updatedItem.thumbnail && updatedItem.thumbnail.startsWith('/')) {
+                updatedItem.thumbnail = `${baseUrl}${updatedItem.thumbnail}`;
+            }
+
+            // attachments URL 처리
+            if (updatedItem.attachments && updatedItem.attachments.length > 0) {
+                updatedItem.attachments = updatedItem.attachments.map(att => ({
+                    ...att,
+                    url: att.url && att.url.startsWith('/') ? `${baseUrl}${att.url}` : att.url,
+                    download_url: att.download_url && att.download_url.startsWith('/') ? `${baseUrl}${att.download_url}` : att.download_url
+                }));
+            }
+
+            return updatedItem;
+        });
+
         // 페이지네이션 처리
         if (page && limit) {
             const pageNum = parseInt(page);
@@ -417,11 +469,11 @@ app.get('/api/admin/board', async (req, res) => {
             const startIndex = (pageNum - 1) * limitNum;
             const endIndex = startIndex + limitNum;
 
-            filteredList = filteredList.slice(startIndex, endIndex);
+            const paginatedList = filteredList.slice(startIndex, endIndex);
 
             res.json({
                 success: true,
-                data: filteredList,
+                data: paginatedList,
                 pagination: {
                     currentPage: pageNum,
                     totalPages: Math.ceil(total / limitNum),
