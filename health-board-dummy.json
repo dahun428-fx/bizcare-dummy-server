@@ -1,0 +1,327 @@
+[
+    {
+        "id": 23,
+        "title": "ㅁㄴㅇㅍㅁㄴㅇㅍㄴㅇㅍㅇㄴㅍ",
+        "board_type": "health-programs",
+        "content": "<ul><li>ㅁㄴㅇㅍㅇㅁㄴㅍㅇㄴㅍㅁㄴㅇㅍㅁㄴㅇㅍㅁㅇㄴㅍㄴㅇㅍ</li></ul>",
+        "author_id": "user123",
+        "author_name": "홍길동",
+        "created_at": "2025-11-19",
+        "view_count": 0,
+        "comment_count": 0,
+        "like_count": 0,
+        "tag": "[\"ㅇㅇㅇㄹㅁㅇㄴㄹ\",\"ㅇㅇㅇㅇㅇ\"]",
+        "updated_at": "2025-11-19",
+        "viewCount": null
+    },
+    {
+        "id": 22,
+        "title": "dsvasdv",
+        "content": "<p>adsvasdvasdvs</p>",
+        "author": "홍길동",
+        "createDate": "2025-11-19",
+        "viewCount": 5,
+        "commentCount": 1,
+        "likeCount": 0,
+        "tags": "[\"ccccc\"]"
+    },
+    {
+        "id": 21,
+        "title": "dasvsdvas",
+        "content": "<p>vsdvasdvsdvas</p>",
+        "author": "홍길동",
+        "createDate": "2025-11-19",
+        "viewCount": 3,
+        "commentCount": 0,
+        "likeCount": 0,
+        "tags": "[\"cxzvxcvcxv\"]"
+    },
+    {
+        "id": 20,
+        "title": "asdfasdf",
+        "content": "<p>adsfdsafsf</p>",
+        "author": "홍길동",
+        "createDate": "2025-11-18",
+        "viewCount": 47,
+        "commentCount": 12,
+        "likeCount": 0,
+        "tags": "[\"ddd\"]"
+    },
+    {
+        "id": 19,
+        "title": "asdfdsfasdf",
+        "content": "<p>sdafasdfadsfdasfdasf</p>",
+        "author": "홍길동",
+        "createDate": "2025-11-18",
+        "viewCount": 29,
+        "commentCount": 1,
+        "likeCount": 0,
+        "tags": "[]"
+    },
+    {
+        "id": 1,
+        "title": "건강검진 안내",
+        "content": "<p><br></p><p style=\"text-align: center;\"><strong>2025년 상반기 건강검진 안내</strong></p><p style=\"text-align",
+        "author": "관리자",
+        "createDate": "2025-01-15",
+        "viewCount": 151,
+        "commentCount": 2,
+        "likeCount": 15,
+        "tags": "[]"
+    },
+    {
+        "id": 2,
+        "title": "근골격계 운동 프로그램 신청 안내",
+        "content": "근골격계 강화를 위한 운동 프로그램을 운영합니다.",
+        "author": "김건강",
+        "createDate": "2025-01-10",
+        "viewCount": 92,
+        "commentCount": 1,
+        "likeCount": 8,
+        "tags": [
+            "운동",
+            "근골격계",
+            "스트레칭"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "스트레스 관리 세미나",
+        "content": "직장인을 위한 스트레스 관리 세미나가 개최됩니다.",
+        "author": "이웰니스",
+        "createDate": "2025-01-05",
+        "viewCount": 67,
+        "commentCount": 0,
+        "likeCount": 12,
+        "tags": [
+            "스트레스",
+            "세미나",
+            "정신건강"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "2025년 금연 프로그램 참여자 모집",
+        "content": "금연을 원하시는 분들을 위한 체계적인 프로그램을 준비했습니다.",
+        "author": "박금연",
+        "createDate": "2025-01-03",
+        "viewCount": 157,
+        "commentCount": 2,
+        "likeCount": 23,
+        "tags": [
+            "금연",
+            "건강관리",
+            "금연프로그램"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "당뇨 관리 교육 프로그램 안내",
+        "content": "당뇨병 환자를 위한 식이요법 및 운동 관리 교육을 진행합니다.",
+        "author": "최영양",
+        "createDate": "2024-12-28",
+        "viewCount": 205,
+        "commentCount": 1,
+        "likeCount": 31,
+        "tags": [
+            "당뇨",
+            "식이요법",
+            "건강교육"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "요가 & 명상 클래스 오픈",
+        "content": "마음의 평화와 신체 건강을 위한 요가 명상 수업을 시작합니다.",
+        "author": "정요가",
+        "createDate": "2024-12-25",
+        "viewCount": 100,
+        "commentCount": 0,
+        "likeCount": 19,
+        "tags": [
+            "요가",
+            "명상",
+            "힐링"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "비만 예방 건강 캠페인",
+        "content": "건강한 체중 관리를 위한 생활 습관 개선 캠페인에 동참해주세요.",
+        "author": "관리자",
+        "createDate": "2024-12-20",
+        "viewCount": 144,
+        "commentCount": 0,
+        "likeCount": 17,
+        "tags": [
+            "다이어트",
+            "체중관리",
+            "건강캠페인"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "겨울철 독감 예방 접종 안내",
+        "content": "독감 예방을 위한 무료 접종 일정을 안내드립니다.",
+        "author": "김간호",
+        "createDate": "2024-12-15",
+        "viewCount": 276,
+        "commentCount": 0,
+        "likeCount": 42,
+        "tags": [
+            "독감",
+            "예방접종",
+            "건강관리"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "심폐소생술(CPR) 교육 참가자 모집",
+        "content": "응급 상황에 대비한 심폐소생술 교육 프로그램에 참여하세요.",
+        "author": "이응급",
+        "createDate": "2024-12-10",
+        "viewCount": 87,
+        "commentCount": 0,
+        "likeCount": 14,
+        "tags": [
+            "CPR",
+            "응급처치",
+            "안전교육"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "직장인 눈 건강 관리 세미나",
+        "content": "장시간 모니터 작업으로 지친 눈을 위한 건강 관리법을 배워보세요.",
+        "author": "박안과",
+        "createDate": "2024-12-05",
+        "viewCount": 134,
+        "commentCount": 0,
+        "likeCount": 21,
+        "tags": [
+            "눈건강",
+            "안과",
+            "VDT증후군"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "고혈압 관리 및 예방법",
+        "content": "고혈압의 원인과 관리 방법에 대해 자세히 알려드립니다.",
+        "author": "최순환",
+        "createDate": "2024-11-30",
+        "viewCount": 189,
+        "commentCount": 0,
+        "likeCount": 28,
+        "tags": [
+            "고혈압",
+            "혈압관리",
+            "만성질환"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "건강한 수면 습관 만들기",
+        "content": "불면증 극복과 숙면을 위한 실용적인 팁을 공유합니다.",
+        "author": "정수면",
+        "createDate": "2024-11-25",
+        "viewCount": 221,
+        "commentCount": 0,
+        "likeCount": 35,
+        "tags": [
+            "수면",
+            "불면증",
+            "숙면"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "직장인 허리 건강 지키기",
+        "content": "장시간 앉아서 근무하는 분들을 위한 허리 건강 관리법입니다.",
+        "author": "김정형",
+        "createDate": "2024-11-20",
+        "viewCount": 165,
+        "commentCount": 0,
+        "likeCount": 26,
+        "tags": [
+            "허리건강",
+            "척추",
+            "자세교정"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "건강한 다이어트 식단 가이드",
+        "content": "요요 없이 건강하게 체중을 감량할 수 있는 식단을 소개합니다.",
+        "author": "이영양",
+        "createDate": "2024-11-15",
+        "viewCount": 312,
+        "commentCount": 0,
+        "likeCount": 48,
+        "tags": [
+            "다이어트",
+            "식단",
+            "영양관리"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "겨울철 감기 예방 건강 상식",
+        "content": "환절기 감기를 예방하는 생활 속 건강 수칙을 알려드립니다.",
+        "author": "박가정",
+        "createDate": "2024-11-10",
+        "viewCount": 178,
+        "commentCount": 0,
+        "likeCount": 29,
+        "tags": [
+            "감기",
+            "예방",
+            "환절기"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "직장 내 정신 건강 관리 프로그램",
+        "content": "업무 스트레스와 번아웃 예방을 위한 심리 상담 프로그램을 운영합니다.",
+        "author": "정심리",
+        "createDate": "2024-11-05",
+        "viewCount": 243,
+        "commentCount": 0,
+        "likeCount": 37,
+        "tags": [
+            "정신건강",
+            "스트레스",
+            "번아웃"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "올바른 손 씻기 캠페인",
+        "content": "감염병 예방의 첫걸음, 올바른 손 씻기 방법을 알아봅시다.",
+        "author": "관리자",
+        "createDate": "2024-10-30",
+        "viewCount": 97,
+        "commentCount": 0,
+        "likeCount": 16,
+        "tags": [
+            "위생",
+            "손씻기",
+            "감염예방"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "건강한 음주 문화 만들기",
+        "content": "적정 음주량과 건강한 음주 습관에 대해 알려드립니다.",
+        "author": "최간호",
+        "createDate": "2024-10-25",
+        "viewCount": 156,
+        "commentCount": 0,
+        "likeCount": 22,
+        "tags": [
+            "음주",
+            "건강습관",
+            "절주"
+        ]
+    }
+]
