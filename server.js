@@ -528,20 +528,38 @@ app.get('/api/board/:id', async (req, res) => {
         boardData[id] = post;
         await writeJsonFile(BOARD_DATA_FILE, boardData);
 
-        // attachments에 download_url 추가 (없는 경우)
+        // 현재 요청의 도메인 정보 생성
+        const protocol = req.protocol;
+        const host = req.get('host');
+        const baseUrl = `${protocol}://${host}`;
+
+        // thumbnail URL에 도메인 추가
+        if (post.thumbnail && post.thumbnail.startsWith('/')) {
+            post.thumbnail = `${baseUrl}${post.thumbnail}`;
+        }
+
+        // attachments URL에 도메인 추가
         if (post.attachments && post.attachments.length > 0) {
             post.attachments = post.attachments.map(att => {
-                if (!att.download_url && att.url) {
-                    // 로컬 파일인 경우 download_url 생성
-                    if (att.url.includes('localhost') || att.url.startsWith('/uploads')) {
-                        const fileName = att.url.split('/').pop();
-                        return {
-                            ...att,
-                            download_url: `/api/download/${fileName}`
-                        };
+                const updatedAtt = { ...att };
+
+                // download_url이 없는 경우 생성
+                if (!updatedAtt.download_url && updatedAtt.url) {
+                    if (updatedAtt.url.includes('localhost') || updatedAtt.url.startsWith('/uploads')) {
+                        const fileName = updatedAtt.url.split('/').pop();
+                        updatedAtt.download_url = `/api/download/${fileName}`;
                     }
                 }
-                return att;
+
+                // URL에 도메인 추가
+                if (updatedAtt.url && updatedAtt.url.startsWith('/')) {
+                    updatedAtt.url = `${baseUrl}${updatedAtt.url}`;
+                }
+                if (updatedAtt.download_url && updatedAtt.download_url.startsWith('/')) {
+                    updatedAtt.download_url = `${baseUrl}${updatedAtt.download_url}`;
+                }
+
+                return updatedAtt;
             });
         }
 
@@ -579,20 +597,38 @@ app.get('/api/admin/board/:id', async (req, res) => {
         boardData[id] = post;
         await writeJsonFile(BOARD_DATA_FILE, boardData);
 
-        // attachments에 download_url 추가 (없는 경우)
+        // 현재 요청의 도메인 정보 생성
+        const protocol = req.protocol;
+        const host = req.get('host');
+        const baseUrl = `${protocol}://${host}`;
+
+        // thumbnail URL에 도메인 추가
+        if (post.thumbnail && post.thumbnail.startsWith('/')) {
+            post.thumbnail = `${baseUrl}${post.thumbnail}`;
+        }
+
+        // attachments URL에 도메인 추가
         if (post.attachments && post.attachments.length > 0) {
             post.attachments = post.attachments.map(att => {
-                if (!att.download_url && att.url) {
-                    // 로컬 파일인 경우 download_url 생성
-                    if (att.url.includes('localhost') || att.url.startsWith('/uploads')) {
-                        const fileName = att.url.split('/').pop();
-                        return {
-                            ...att,
-                            download_url: `/api/download/${fileName}`
-                        };
+                const updatedAtt = { ...att };
+
+                // download_url이 없는 경우 생성
+                if (!updatedAtt.download_url && updatedAtt.url) {
+                    if (updatedAtt.url.includes('localhost') || updatedAtt.url.startsWith('/uploads')) {
+                        const fileName = updatedAtt.url.split('/').pop();
+                        updatedAtt.download_url = `/api/download/${fileName}`;
                     }
                 }
-                return att;
+
+                // URL에 도메인 추가
+                if (updatedAtt.url && updatedAtt.url.startsWith('/')) {
+                    updatedAtt.url = `${baseUrl}${updatedAtt.url}`;
+                }
+                if (updatedAtt.download_url && updatedAtt.download_url.startsWith('/')) {
+                    updatedAtt.download_url = `${baseUrl}${updatedAtt.download_url}`;
+                }
+
+                return updatedAtt;
             });
         }
 
@@ -1121,10 +1157,32 @@ app.put('/api/board/:id', upload.fields([
         boardData[id] = post;
         await writeJsonFile(BOARD_DATA_FILE, boardData);
 
+        // 현재 요청의 도메인 정보 생성
+        const protocol = req.protocol;
+        const host = req.get('host');
+        const baseUrl = `${protocol}://${host}`;
+
+        // 응답용 post 복사본 생성
+        const responsePost = { ...post };
+
+        // thumbnail URL에 도메인 추가
+        if (responsePost.thumbnail && responsePost.thumbnail.startsWith('/')) {
+            responsePost.thumbnail = `${baseUrl}${responsePost.thumbnail}`;
+        }
+
+        // attachments URL에 도메인 추가
+        if (responsePost.attachments && responsePost.attachments.length > 0) {
+            responsePost.attachments = responsePost.attachments.map(att => ({
+                ...att,
+                url: att.url && att.url.startsWith('/') ? `${baseUrl}${att.url}` : att.url,
+                download_url: att.download_url && att.download_url.startsWith('/') ? `${baseUrl}${att.download_url}` : att.download_url
+            }));
+        }
+
         res.json({
             success: true,
             message: '게시글이 수정되었습니다.',
-            data: post
+            data: responsePost
         });
     } catch (error) {
         res.status(500).json({
@@ -1332,10 +1390,32 @@ app.put('/api/admin/board/:id', upload.fields([
         boardData[id] = post;
         await writeJsonFile(BOARD_DATA_FILE, boardData);
 
+        // 현재 요청의 도메인 정보 생성
+        const protocol = req.protocol;
+        const host = req.get('host');
+        const baseUrl = `${protocol}://${host}`;
+
+        // 응답용 post 복사본 생성
+        const responsePost = { ...post };
+
+        // thumbnail URL에 도메인 추가
+        if (responsePost.thumbnail && responsePost.thumbnail.startsWith('/')) {
+            responsePost.thumbnail = `${baseUrl}${responsePost.thumbnail}`;
+        }
+
+        // attachments URL에 도메인 추가
+        if (responsePost.attachments && responsePost.attachments.length > 0) {
+            responsePost.attachments = responsePost.attachments.map(att => ({
+                ...att,
+                url: att.url && att.url.startsWith('/') ? `${baseUrl}${att.url}` : att.url,
+                download_url: att.download_url && att.download_url.startsWith('/') ? `${baseUrl}${att.download_url}` : att.download_url
+            }));
+        }
+
         res.json({
             success: true,
             message: '게시글이 수정되었습니다.',
-            data: post
+            data: responsePost
         });
     } catch (error) {
         res.status(500).json({
