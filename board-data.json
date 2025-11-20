@@ -1373,8 +1373,8 @@
                 "id": 7,
                 "name": "(PoC) áá­áá®áá¡áá¡á¼áá¥á¼áá´áá¥_v2.0_250418_FE.xlsx",
                 "size": 429106,
-                "url": "http://localhost:8300/uploads/attachments/1763623016027-798418971-(PoC)_áá­áá®áá¡áá¡á¼áá¥á¼áá´áá¥_v2.0_250418_FE.xlsx",
-                "download_url": "http://localhost:8300/api/download/1763623016027-798418971-(PoC)_áá­áá®áá¡áá¡á¼áá¥á¼áá´áá¥_v2.0_250418_FE.xlsx",
+                "url": "/uploads/attachments/1763623016027-798418971-(PoC)_áá­áá®áá¡áá¡á¼áá¥á¼áá´áá¥_v2.0_250418_FE.xlsx",
+                "download_url": "/api/download/1763623016027-798418971-(PoC)_áá­áá®áá¡áá¡á¼áá¥á¼áá´áá¥_v2.0_250418_FE.xlsx",
                 "created_at": "2025-11-20T07:16:56.040Z"
             }
         ],
@@ -1402,24 +1402,24 @@
                 "id": 8,
                 "name": "main_visual1.jpg",
                 "size": 138364,
-                "url": "http://localhost:8300/uploads/attachments/1763624471595-9087f5dcafbd990e.jpg",
-                "download_url": "http://localhost:8300/api/download/1763624471595-9087f5dcafbd990e.jpg",
+                "url": "/uploads/attachments/1763624471595-9087f5dcafbd990e.jpg",
+                "download_url": "/api/download/1763624471595-9087f5dcafbd990e.jpg",
                 "created_at": "2025-11-20T07:41:11.607Z"
             },
             {
                 "id": 9,
                 "name": "main_visual2.jpg",
                 "size": 250542,
-                "url": "http://localhost:8300/uploads/attachments/1763624471597-e47296359ca35e88.jpg",
-                "download_url": "http://localhost:8300/api/download/1763624471597-e47296359ca35e88.jpg",
+                "url": "/uploads/attachments/1763624471597-e47296359ca35e88.jpg",
+                "download_url": "/api/download/1763624471597-e47296359ca35e88.jpg",
                 "created_at": "2025-11-20T07:41:11.607Z"
             },
             {
                 "id": 10,
                 "name": "main_visual3.jpg",
                 "size": 249558,
-                "url": "http://localhost:8300/uploads/attachments/1763624471600-0cb6df0a6977043b.jpg",
-                "download_url": "http://localhost:8300/api/download/1763624471600-0cb6df0a6977043b.jpg",
+                "url": "/uploads/attachments/1763624471600-0cb6df0a6977043b.jpg",
+                "download_url": "/api/download/1763624471600-0cb6df0a6977043b.jpg",
                 "created_at": "2025-11-20T07:41:11.607Z"
             }
         ],
@@ -1585,7 +1585,7 @@
         "tag": "[\"건강제도\",\"복지\",\"체력관리\",\"트레이닝\",\"힐리언스코어\"]",
         "category_code": "WELFARE",
         "category_name": "신체건강",
-        "thumbnail": "http://localhost:8300/uploads/thumbnails/1763640549873-7f550661737c2e01.jpg",
+        "thumbnail": "/uploads/thumbnails/1763640549873-7f550661737c2e01.jpg",
         "attachments": [],
         "comments": [],
         "is_public": true,
@@ -1608,7 +1608,7 @@
         "tag": "[\"건강제도\",\"복지\",\"힐링존\",\"집중력\"]",
         "category_code": "WELFARE",
         "category_name": "신체건강",
-        "thumbnail": "http://localhost:8300/uploads/thumbnails/1763640951962-e2bef228a10d6370.jpg",
+        "thumbnail": "/uploads/thumbnails/1763640951962-e2bef228a10d6370.jpg",
         "attachments": [],
         "comments": [],
         "is_public": true,
@@ -1677,7 +1677,7 @@
         "tag": "[\"건강제도\",\"복지\",\"웰체크\",\"혈압\"]",
         "category_code": "WELFARE",
         "category_name": "신체건강",
-        "thumbnail": "http://localhost:8300/uploads/thumbnails/1763642436163-c6a09e131d14a26e.jpg",
+        "thumbnail": "/uploads/thumbnails/1763642436163-c6a09e131d14a26e.jpg",
         "attachments": [],
         "comments": [],
         "is_public": true,
@@ -1700,7 +1700,7 @@
         "tag": "[\"건강제도\",\"복지\"]",
         "category_code": "WELFARE",
         "category_name": "신체건강",
-        "thumbnail": "http://localhost:8300/uploads/thumbnails/1763641107472-98b0b84215318a8a.jpg",
+        "thumbnail": "/uploads/thumbnails/1763641107472-98b0b84215318a8a.jpg",
         "attachments": [],
         "comments": [],
         "is_public": true,
@@ -1723,7 +1723,7 @@
         "tag": "[\"건강제도\",\"복지\",\"마음건강\"]",
         "category_code": "WELFARE",
         "category_name": "신체건강",
-        "thumbnail": "http://localhost:8300/uploads/thumbnails/1763642555920-3e26a401d0bef151.jpg",
+        "thumbnail": "/uploads/thumbnails/1763642555920-3e26a401d0bef151.jpg",
         "attachments": [],
         "comments": [],
         "is_public": true,
@@ -1746,7 +1746,7 @@
         "tag": "[\"건강제도\",\"복지\",\"자전거\",\"사내동호회\"]",
         "category_code": "WELFARE",
         "category_name": "신체건강",
-        "thumbnail": "http://localhost:8300/uploads/thumbnails/1763641149353-4f25c933baf87684.jpg",
+        "thumbnail": "/uploads/thumbnails/1763641149353-4f25c933baf87684.jpg",
         "attachments": [],
         "comments": [],
         "is_public": true,
@@ -1769,7 +1769,7 @@
         "tag": "[\"건강제도\",\"복지\",\"웰다\",\"디지털헬스\",\"신체건강\"]",
         "category_code": "WELFARE",
         "category_name": "신체건강",
-        "thumbnail": "http://localhost:8300/uploads/thumbnails/1763642412709-0b0f8e0369d781c0.jpg",
+        "thumbnail": "/uploads/thumbnails/1763642412709-0b0f8e0369d781c0.jpg",
         "attachments": [],
         "comments": [],
         "is_public": true,
@@ -1838,7 +1838,7 @@
         "tag": "[\"마음건강\",\"건강제도\",\"복지\",\"스트레스개선\"]",
         "category_code": "MENTAL",
         "category_name": "신체건강",
-        "thumbnail": "http://localhost:8300/uploads/thumbnails/1763641351277-6c53103182f6decd.jpg",
+        "thumbnail": "/uploads/thumbnails/1763641351277-6c53103182f6decd.jpg",
         "attachments": [],
         "comments": [],
         "is_public": true,
@@ -2300,7 +2300,7 @@
         "comments": [],
         "is_public": false,
         "is_deleted": true,
-        "thumbnail": "http://localhost:8300/uploads/thumbnails/1763640113865-c8d8860b2d1e6896.svg",
+        "thumbnail": "/uploads/thumbnails/1763640113865-c8d8860b2d1e6896.svg",
         "category_code": "",
         "category_name": "신체건강"
     },
@@ -2483,7 +2483,7 @@
         "comments": [],
         "is_public": true,
         "is_deleted": false,
-        "thumbnail": "http://localhost:8300/uploads/thumbnails/1763641707677-032f18fcb34d6fc9.jpg",
+        "thumbnail": "/uploads/thumbnails/1763641707677-032f18fcb34d6fc9.jpg",
         "category_code": "",
         "category_name": "신체건강"
     },
@@ -2516,7 +2516,7 @@
         ],
         "is_public": true,
         "is_deleted": false,
-        "thumbnail": "http://localhost:8300/uploads/thumbnails/1763641965574-f9f3380fcba3b78a.jpg",
+        "thumbnail": "/uploads/thumbnails/1763641965574-f9f3380fcba3b78a.jpg",
         "category_code": "",
         "category_name": "신체건강"
     }

@@ -485,7 +485,7 @@ app.get('/api/board/:id', async (req, res) => {
                         const fileName = att.url.split('/').pop();
                         return {
                             ...att,
-                            download_url: `http://localhost:${PORT}/api/download/${fileName}`
+                            download_url: `/api/download/${fileName}`
                         };
                     }
                 }
@@ -536,7 +536,7 @@ app.get('/api/admin/board/:id', async (req, res) => {
                         const fileName = att.url.split('/').pop();
                         return {
                             ...att,
-                            download_url: `http://localhost:${PORT}/api/download/${fileName}`
+                            download_url: `/api/download/${fileName}`
                         };
                     }
                 }
@@ -604,8 +604,8 @@ app.post('/api/admin/board', upload.fields([
                     id: maxAttachmentId,
                     name: file.originalname,
                     size: file.size,
-                    url: `http://localhost:${PORT}/uploads/attachments/${file.filename}`,
-                    download_url: `http://localhost:${PORT}/api/download/${file.filename}`,
+                    url: `/uploads/attachments/${file.filename}`,
+                    download_url: `/api/download/${file.filename}`,
                     created_at: new Date().toISOString()
                 });
             }
@@ -630,8 +630,8 @@ app.post('/api/admin/board', upload.fields([
                                 id: maxAttachmentId,
                                 name: attachment.name || fileName,
                                 size: fileStats.size,
-                                url: `http://localhost:${PORT}/uploads/attachments/${fileName}`,
-                                download_url: `http://localhost:${PORT}/api/download/${fileName}`,
+                                url: `/uploads/attachments/${fileName}`,
+                                download_url: `/api/download/${fileName}`,
                                 created_at: new Date().toISOString()
                             });
                         } catch (err) {
@@ -675,7 +675,7 @@ app.post('/api/admin/board', upload.fields([
             const safeFileName = generateSafeFileName(thumbnailFile.originalname);
             const thumbnailPath = path.join(THUMBNAILS_DIR, safeFileName);
             fsSync.renameSync(thumbnailFile.path, thumbnailPath);
-            localThumbnail = `http://localhost:${PORT}/uploads/thumbnails/${safeFileName}`;
+            localThumbnail = `/uploads/thumbnails/${safeFileName}`;
         }
 
         // 2. thumbnail이 외부 URL인 경우 다운로드
@@ -684,7 +684,7 @@ app.post('/api/admin/board', upload.fields([
                 const fileName = generateFileName(thumbnail);
                 const localPath = path.join(THUMBNAILS_DIR, fileName);
                 await downloadFile(thumbnail, localPath);
-                localThumbnail = `http://localhost:${PORT}/uploads/thumbnails/${fileName}`;
+                localThumbnail = `/uploads/thumbnails/${fileName}`;
             } catch (err) {
                 console.error('썸네일 다운로드 실패:', err);
                 localThumbnail = thumbnail; // 실패 시 원본 URL 유지
@@ -781,8 +781,8 @@ app.post('/api/board', upload.fields([
                     id: maxAttachmentId,
                     name: file.originalname,
                     size: file.size,
-                    url: `http://localhost:${PORT}/uploads/attachments/${file.filename}`,
-                    download_url: `http://localhost:${PORT}/api/download/${file.filename}`,
+                    url: `/uploads/attachments/${file.filename}`,
+                    download_url: `/api/download/${file.filename}`,
                     created_at: new Date().toISOString()
                 });
             }
@@ -807,8 +807,8 @@ app.post('/api/board', upload.fields([
                                 id: maxAttachmentId,
                                 name: attachment.name || fileName,
                                 size: fileStats.size,
-                                url: `http://localhost:${PORT}/uploads/attachments/${fileName}`,
-                                download_url: `http://localhost:${PORT}/api/download/${fileName}`,
+                                url: `/uploads/attachments/${fileName}`,
+                                download_url: `/api/download/${fileName}`,
                                 created_at: new Date().toISOString()
                             });
                         } catch (err) {
@@ -852,7 +852,7 @@ app.post('/api/board', upload.fields([
             const safeFileName = generateSafeFileName(thumbnailFile.originalname);
             const thumbnailPath = path.join(THUMBNAILS_DIR, safeFileName);
             fsSync.renameSync(thumbnailFile.path, thumbnailPath);
-            localThumbnail = `http://localhost:${PORT}/uploads/thumbnails/${safeFileName}`;
+            localThumbnail = `/uploads/thumbnails/${safeFileName}`;
         }
 
         // 2. thumbnail이 외부 URL인 경우 다운로드
@@ -861,7 +861,7 @@ app.post('/api/board', upload.fields([
                 const fileName = generateFileName(thumbnail);
                 const localPath = path.join(THUMBNAILS_DIR, fileName);
                 await downloadFile(thumbnail, localPath);
-                localThumbnail = `http://localhost:${PORT}/uploads/thumbnails/${fileName}`;
+                localThumbnail = `/uploads/thumbnails/${fileName}`;
             } catch (err) {
                 console.error('썸네일 다운로드 실패:', err);
                 localThumbnail = thumbnail; // 실패 시 원본 URL 유지
@@ -952,7 +952,7 @@ app.put('/api/board/:id', upload.fields([
             const safeFileName = generateSafeFileName(thumbnailFile.originalname);
             const thumbnailPath = path.join(THUMBNAILS_DIR, safeFileName);
             fsSync.renameSync(thumbnailFile.path, thumbnailPath);
-            post.thumbnail = `http://localhost:${PORT}/uploads/thumbnails/${safeFileName}`;
+            post.thumbnail = `/uploads/thumbnails/${safeFileName}`;
         }
         // 2. thumbnail이 외부 URL인 경우 다운로드
         else if (thumbnail !== undefined) {
@@ -961,7 +961,7 @@ app.put('/api/board/:id', upload.fields([
                     const fileName = generateFileName(thumbnail);
                     const localPath = path.join(THUMBNAILS_DIR, fileName);
                     await downloadFile(thumbnail, localPath);
-                    post.thumbnail = `http://localhost:${PORT}/uploads/thumbnails/${fileName}`;
+                    post.thumbnail = `/uploads/thumbnails/${fileName}`;
                 } catch (err) {
                     console.error('썸네일 다운로드 실패:', err);
                     post.thumbnail = thumbnail; // 실패 시 원본 URL 유지
@@ -987,8 +987,8 @@ app.put('/api/board/:id', upload.fields([
                     id: maxAttachmentId,
                     name: file.originalname,
                     size: file.size,
-                    url: `http://localhost:${PORT}/uploads/attachments/${file.filename}`,
-                    download_url: `http://localhost:${PORT}/api/download/${file.filename}`,
+                    url: `/uploads/attachments/${file.filename}`,
+                    download_url: `/api/download/${file.filename}`,
                     created_at: new Date().toISOString()
                 });
             }
@@ -1011,8 +1011,8 @@ app.put('/api/board/:id', upload.fields([
                                 ...attachment,
                                 original_url: attachment.url,
                                 local_path: `/uploads/attachments/${fileName}`,
-                                url: `http://localhost:${PORT}/uploads/attachments/${fileName}`,
-                                download_url: `http://localhost:${PORT}/api/download/${fileName}`
+                                url: `/uploads/attachments/${fileName}`,
+                                download_url: `/api/download/${fileName}`
                             });
                         } catch (err) {
                             console.error('첨부파일 다운로드 실패:', err);
@@ -1163,7 +1163,7 @@ app.put('/api/admin/board/:id', upload.fields([
             const safeFileName = generateSafeFileName(thumbnailFile.originalname);
             const thumbnailPath = path.join(THUMBNAILS_DIR, safeFileName);
             fsSync.renameSync(thumbnailFile.path, thumbnailPath);
-            post.thumbnail = `http://localhost:${PORT}/uploads/thumbnails/${safeFileName}`;
+            post.thumbnail = `/uploads/thumbnails/${safeFileName}`;
         }
         // 2. thumbnail이 외부 URL인 경우 다운로드
         else if (thumbnail !== undefined) {
@@ -1172,7 +1172,7 @@ app.put('/api/admin/board/:id', upload.fields([
                     const fileName = generateFileName(thumbnail);
                     const localPath = path.join(THUMBNAILS_DIR, fileName);
                     await downloadFile(thumbnail, localPath);
-                    post.thumbnail = `http://localhost:${PORT}/uploads/thumbnails/${fileName}`;
+                    post.thumbnail = `/uploads/thumbnails/${fileName}`;
                 } catch (err) {
                     console.error('썸네일 다운로드 실패:', err);
                     post.thumbnail = thumbnail; // 실패 시 원본 URL 유지
@@ -1198,8 +1198,8 @@ app.put('/api/admin/board/:id', upload.fields([
                     id: maxAttachmentId,
                     name: file.originalname,
                     size: file.size,
-                    url: `http://localhost:${PORT}/uploads/attachments/${file.filename}`,
-                    download_url: `http://localhost:${PORT}/api/download/${file.filename}`,
+                    url: `/uploads/attachments/${file.filename}`,
+                    download_url: `/api/download/${file.filename}`,
                     created_at: new Date().toISOString()
                 });
             }
@@ -1222,8 +1222,8 @@ app.put('/api/admin/board/:id', upload.fields([
                                 ...attachment,
                                 original_url: attachment.url,
                                 local_path: `/uploads/attachments/${fileName}`,
-                                url: `http://localhost:${PORT}/uploads/attachments/${fileName}`,
-                                download_url: `http://localhost:${PORT}/api/download/${fileName}`
+                                url: `/uploads/attachments/${fileName}`,
+                                download_url: `/api/download/${fileName}`
                             });
                         } catch (err) {
                             console.error('첨부파일 다운로드 실패:', err);
@@ -1789,8 +1789,8 @@ app.post('/api/upload', upload.single('file'), (req, res) => {
                 originalName: file.originalname,
                 size: file.size,
                 mimeType: file.mimetype,
-                url: `http://localhost:${PORT}/uploads/attachments/${file.filename}`,
-                downloadUrl: `http://localhost:${PORT}/api/download/${file.filename}`
+                url: `/uploads/attachments/${file.filename}`,
+                downloadUrl: `/api/download/${file.filename}`
             }
         });
     } catch (error) {
@@ -1819,8 +1819,8 @@ app.post('/api/upload-multiple', upload.array('files', 10), (req, res) => {
             originalName: file.originalname,
             size: file.size,
             mimeType: file.mimetype,
-            url: `http://localhost:${PORT}/uploads/attachments/${file.filename}`,
-            downloadUrl: `http://localhost:${PORT}/api/download/${file.filename}`
+            url: `/uploads/attachments/${file.filename}`,
+            downloadUrl: `/api/download/${file.filename}`
         }));
 
         res.json({
