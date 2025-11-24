@@ -594,6 +594,10 @@ app.get('/api/admin/board/:id', async (req, res) => {
         // admin용: 삭제/비공개 여부와 관계없이 모든 게시글 조회 가능
         // 조회수 증가
         post.view_count = (post.view_count || 0) + 1;
+
+        // step을 1로 변경 (읽음 처리)
+        post.step = 1;
+
         boardData[id] = post;
         await writeJsonFile(BOARD_DATA_FILE, boardData);
 
@@ -824,13 +828,13 @@ app.post('/api/admin/board', upload.fields([
     }
 });
 
-// 3. 게시글 생성 (POST /api/board) - admin만 생성 가능
+// 3. 게시글 생성 (POST /api/board) -
 app.post('/api/board', upload.fields([
     { name: 'thumbnail', maxCount: 1 },
     { name: 'attachments', maxCount: 10 }
 ]), async (req, res) => {
     try {
-        const { title, board_type, company_name, company_no, content, author_name, author_id, tag, category_code, category_name, thumbnail, attachments } = req.body;
+        const { title, board_type, company_name, company_no, content, author_name, author_id, tag, category_code, category_name, thumbnail, attachments, is_public } = req.body;
 
         if (!title || !content || !author_name || !author_id || !board_type) {
             return res.status(400).json({
@@ -973,7 +977,7 @@ app.post('/api/board', upload.fields([
             tag: tag || "[]",
             attachments: parsedAttachments,
             comments: [],
-            is_public: true,
+            is_public: is_public === "false" ? false : true,
             is_deleted: false,
             thumbnail: localThumbnail // 모든 게시글 타입에 thumbnail 추가
         };
@@ -1823,6 +1827,34 @@ app.patch('/api/board/comments/:commentId/deleted', async (req, res) => {
         res.status(500).json({
             success: false,
             message: '댓글 삭제 상태 설정 실패',
+            error: error.message
+        });
+    }
+});
+
+// 8-2. 건강게시판 읽지 않은 게시글 수 조회 (GET /api/board/health-programs/check)
+app.get('/api/board/health-programs/check', async (req, res) => {
+    try {
+        const boardData = await readJsonFile(BOARD_DATA_FILE);
+
+        // health-programs 타입이고, step이 0인 게시글 개수 카운트
+        const unreadCount = Object.values(boardData).filter(post =>
+            post.board_type === 'health-programs' &&
+            !post.is_deleted &&
+            post.step === 0
+        ).length;
+
+        res.json({
+            success: true,
+            data: {
+                count: unreadCount
+            },
+            message: ""
+        });
+    } catch (error) {
+        res.status(500).json({
+            success: false,
+            message: '읽지 않은 게시글 수 조회 실패',
             error: error.message
         });
     }

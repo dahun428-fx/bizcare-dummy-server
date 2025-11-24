@@ -30,7 +30,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "2": {
         "id": 2,
@@ -66,7 +67,8 @@
             }
         ],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "3": {
         "id": 3,
@@ -86,7 +88,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "4": {
         "id": 4,
@@ -113,7 +116,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "5": {
         "id": 5,
@@ -146,7 +150,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "6": {
         "id": 6,
@@ -166,7 +171,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "7": {
         "id": 7,
@@ -186,7 +192,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "8": {
         "id": 8,
@@ -206,7 +213,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "9": {
         "id": 9,
@@ -226,7 +234,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "10": {
         "id": 10,
@@ -246,7 +255,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "11": {
         "id": 11,
@@ -266,7 +276,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "12": {
         "id": 12,
@@ -286,7 +297,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "13": {
         "id": 13,
@@ -306,7 +318,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "14": {
         "id": 14,
@@ -326,7 +339,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "15": {
         "id": 15,
@@ -346,7 +360,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "16": {
         "id": 16,
@@ -366,7 +381,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "17": {
         "id": 17,
@@ -386,7 +402,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "18": {
         "id": 18,
@@ -406,7 +423,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "19": {
         "id": 19,
@@ -436,7 +454,8 @@
             }
         ],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "20": {
         "id": 20,
@@ -456,7 +475,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "21": {
         "id": 21,
@@ -476,7 +496,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "22": {
         "id": 22,
@@ -506,7 +527,8 @@
             }
         ],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "23": {
         "id": 23,
@@ -526,7 +548,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "24": {
         "id": 24,
@@ -556,7 +579,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "25": {
         "id": 25,
@@ -579,7 +603,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "26": {
         "id": 26,
@@ -609,7 +634,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "27": {
         "id": 27,
@@ -645,7 +671,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "28": {
         "id": 28,
@@ -668,7 +695,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "29": {
         "id": 29,
@@ -698,7 +726,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "30": {
         "id": 30,
@@ -728,7 +757,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "31": {
         "id": 31,
@@ -758,7 +788,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "32": {
         "id": 32,
@@ -788,7 +819,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "33": {
         "id": 33,
@@ -818,7 +850,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "34": {
         "id": 34,
@@ -854,7 +887,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "35": {
         "id": 35,
@@ -890,7 +924,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "36": {
         "id": 36,
@@ -920,7 +955,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "37": {
         "id": 37,
@@ -943,7 +979,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "38": {
         "id": 38,
@@ -983,7 +1020,8 @@
             }
         ],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "39": {
         "id": 39,
@@ -1034,7 +1072,8 @@
             }
         ],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "40": {
         "id": 40,
@@ -1054,7 +1093,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "41": {
         "id": 41,
@@ -1074,7 +1114,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "42": {
         "id": 42,
@@ -1094,7 +1135,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "43": {
         "id": 43,
@@ -1112,7 +1154,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "44": {
         "id": 44,
@@ -1132,7 +1175,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "45": {
         "id": 45,
@@ -1152,7 +1196,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "46": {
         "id": 46,
@@ -1172,7 +1217,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "47": {
         "id": 47,
@@ -1192,7 +1238,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "48": {
         "id": 48,
@@ -1212,7 +1259,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "49": {
         "id": 49,
@@ -1235,7 +1283,8 @@
         "is_deleted": true,
         "category_code": "",
         "category_name": "신체건강",
-        "thumbnail": ""
+        "thumbnail": "",
+        "step": 0
     },
     "50": {
         "id": 50,
@@ -1255,7 +1304,8 @@
         "is_public": true,
         "is_deleted": true,
         "company_name": "대웅그룹",
-        "company_no": "45"
+        "company_no": "45",
+        "step": 0
     },
     "51": {
         "id": 51,
@@ -1278,7 +1328,8 @@
         "is_deleted": true,
         "category_code": "",
         "category_name": "신체건강",
-        "thumbnail": ""
+        "thumbnail": "",
+        "step": 0
     },
     "52": {
         "id": 52,
@@ -1311,7 +1362,8 @@
         "is_deleted": true,
         "category_code": "",
         "category_name": "신체건강",
-        "thumbnail": ""
+        "thumbnail": "",
+        "step": 0
     },
     "53": {
         "id": 53,
@@ -1331,7 +1383,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "54": {
         "id": 54,
@@ -1351,7 +1404,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "55": {
         "id": 55,
@@ -1380,7 +1434,8 @@
         ],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "56": {
         "id": 56,
@@ -1428,7 +1483,8 @@
         "is_deleted": true,
         "category_code": "",
         "category_name": "신체건강",
-        "thumbnail": ""
+        "thumbnail": "",
+        "step": 0
     },
     "57": {
         "id": 57,
@@ -1451,7 +1507,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "58": {
         "id": 58,
@@ -1474,7 +1531,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "59": {
         "id": 59,
@@ -1497,7 +1555,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "60": {
         "id": 60,
@@ -1520,7 +1579,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "61": {
         "id": 61,
@@ -1543,7 +1603,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "62": {
         "id": 62,
@@ -1566,7 +1627,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": true
+        "is_deleted": true,
+        "step": 0
     },
     "63": {
         "id": 63,
@@ -1589,7 +1651,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "64": {
         "id": 64,
@@ -1612,7 +1675,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "65": {
         "id": 65,
@@ -1635,7 +1699,8 @@
         "attachments": [],
         "comments": [],
         "is_public": false,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "66": {
         "id": 66,
@@ -1658,7 +1723,8 @@
         "attachments": [],
         "comments": [],
         "is_public": false,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "67": {
         "id": 67,
@@ -1670,7 +1736,7 @@
         "updated_at": "2025-11-20T13:54:09.566Z",
         "company_name": "대웅그룹",
         "company_no": "45",
-        "view_count": 401,
+        "view_count": 402,
         "comment_count": 0,
         "like_count": 123,
         "board_type": "health-policy",
@@ -1681,7 +1747,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 1
     },
     "68": {
         "id": 68,
@@ -1704,7 +1771,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "69": {
         "id": 69,
@@ -1727,7 +1795,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "70": {
         "id": 70,
@@ -1750,7 +1819,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "71": {
         "id": 71,
@@ -1773,7 +1843,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "72": {
         "id": 72,
@@ -1796,7 +1867,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "73": {
         "id": 73,
@@ -1819,7 +1891,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "74": {
         "id": 74,
@@ -1842,7 +1915,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "75": {
         "id": 75,
@@ -1865,7 +1939,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "76": {
         "id": 76,
@@ -1888,7 +1963,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "77": {
         "id": 77,
@@ -1911,7 +1987,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "78": {
         "id": 78,
@@ -1923,7 +2000,7 @@
         "updated_at": "2025-11-20T11:03:27.394Z",
         "company_name": "대웅제약",
         "company_no": 45,
-        "view_count": 876,
+        "view_count": 877,
         "comment_count": 0,
         "like_count": 335,
         "board_type": "health-policy",
@@ -1934,7 +2011,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 1
     },
     "79": {
         "id": 79,
@@ -1957,7 +2035,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "80": {
         "id": 80,
@@ -1980,7 +2059,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "81": {
         "id": 81,
@@ -2003,7 +2083,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "82": {
         "id": 82,
@@ -2026,7 +2107,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "83": {
         "id": 83,
@@ -2049,7 +2131,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "84": {
         "id": 84,
@@ -2072,7 +2155,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "85": {
         "id": 85,
@@ -2095,7 +2179,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "86": {
         "id": 86,
@@ -2118,7 +2203,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "87": {
         "id": 87,
@@ -2141,7 +2227,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "88": {
         "id": 88,
@@ -2164,7 +2251,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "89": {
         "id": 89,
@@ -2187,7 +2275,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "90": {
         "id": 90,
@@ -2210,7 +2299,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "91": {
         "id": 91,
@@ -2233,7 +2323,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "92": {
         "id": 92,
@@ -2256,7 +2347,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "93": {
         "id": 93,
@@ -2279,7 +2371,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "94": {
         "id": 94,
@@ -2302,7 +2395,8 @@
         "is_deleted": true,
         "thumbnail": "/uploads/thumbnails/1763640113865-c8d8860b2d1e6896.svg",
         "category_code": "",
-        "category_name": "신체건강"
+        "category_name": "신체건강",
+        "step": 0
     },
     "95": {
         "id": 95,
@@ -2322,11 +2416,12 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "96": {
         "id": 96,
-        "title": "점심시간 워킹챌린지 참여자 모집",
+        "title": "[공지] 점심시간 워킹챌린지 참여자 모집",
         "content": "<div style=\"padding-top:50px; height:0px; overflow:hidden;\"></div><p style=\"text-align: center;\"><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:18px;\"><b>점심시간 워킹챌린지</b></span></span></p><p style=\"text-align: center;\">&nbsp;</p><p><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">점심시간을 활용한 건강 걷기 운동! 함께 걸으면서 건강도 챙기고 동료들과 친목도 다져보세요.</span></span></p><p>&nbsp;</p><h3><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:18px;\"><b>챌린지 내용</b></span></span></h3><ul><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">기간: 2025년 2월 1일 ~ 2월 28일 (4주간)</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">목표: 하루 5,000보 이상 걷기</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">인센티브: 목표 달성자 중 추첨을 통해 경품 제공</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">참여방법: 베어월드 게시판에서 신청</span></span></li></ul>",
         "author_name": "전지혜",
         "author_id": "user202",
@@ -2342,11 +2437,12 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "97": {
         "id": 97,
-        "title": "직장인을 위한 올바른 자세 교정 특강",
+        "title": "[공지] 직장인을 위한 올바른 자세 교정 특강",
         "content": "<div style=\"padding-top:50px; height:0px; overflow:hidden;\"></div><p style=\"text-align: center;\"><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:18px;\"><b>올바른 자세 교정 특강</b></span></span></p><p style=\"text-align: center;\">&nbsp;</p><p><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">장시간 앉아서 근무하는 직장인을 위한 바른 자세 교정 특강을 진행합니다. 거북목, 일자목, 라운드숄더 예방법을 배워보세요.</span></span></p><p>&nbsp;</p><h3><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:18px;\"><b>특강 안내</b></span></span></h3><ul><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">일시: 2025년 2월 5일 오후 3시</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">장소: 본사 대회의실</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">강사: 물리치료사 전문가</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">정원: 50명 (선착순 마감)</span></span></li></ul>",
         "author_name": "이태한",
         "author_id": "user203",
@@ -2362,11 +2458,12 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "98": {
         "id": 98,
-        "title": "스트레칭 데이 운영 안내",
+        "title": "[안내] 스트레칭 데이 운영 안내",
         "content": "<div style=\"padding-top:50px; height:0px; overflow:hidden;\"></div><p style=\"text-align: center;\"><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:18px;\"><b>매주 화요일 스트레칭 데이</b></span></span></p><p style=\"text-align: center;\">&nbsp;</p><p><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">매주 화요일 오후 3시, 전문 트레이너와 함께하는 사무실 스트레칭 시간을 운영합니다. 책상에서 잠깐 일어나 몸을 풀어보세요!</span></span></p><p>&nbsp;</p><h3><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:18px;\"><b>운영 정보</b></span></span></h3><ul><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">시간: 매주 화요일 오후 3시 (15분간)</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">장소: 각 층 휴게 공간</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">내용: 목, 어깨, 허리 스트레칭</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">참여방법: 별도 신청 없이 자유롭게 참여</span></span></li></ul>",
         "author_name": "이은솔",
         "author_id": "user204",
@@ -2382,11 +2479,12 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "99": {
         "id": 99,
-        "title": "영양사와 함께하는 건강 식단 상담",
+        "title": "[공지] 영양사와 함께하는 건강 식단 상담",
         "content": "<div style=\"padding-top:50px; height:0px; overflow:hidden;\"></div><p style=\"text-align: center;\"><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:18px;\"><b>건강 식단 1:1 상담</b></span></span></p><p style=\"text-align: center;\">&nbsp;</p><p><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">전문 영양사가 개인별 맞춤 식단을 상담해드립니다. 다이어트, 근육량 증가, 질병 관리 등 목적에 맞는 식단 조언을 받아보세요.</span></span></p><p>&nbsp;</p><h3><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:18px;\"><b>상담 안내</b></span></span></h3><ul><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">기간: 2025년 2월 한 달간 매주 목요일</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">시간: 1인당 30분</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">장소: 건강관리실</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">신청: 베어월드 예약 시스템</span></span></li></ul>",
         "author_name": "김형준",
         "author_id": "user205",
@@ -2402,7 +2500,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "100": {
         "id": 100,
@@ -2422,7 +2521,8 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "101": {
         "id": 101,
@@ -2442,11 +2542,12 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "102": {
         "id": 102,
-        "title": "봄맞이 야외 운동 프로그램",
+        "title": "[안내] 봄맞이 야외 운동 프로그램",
         "content": "<div style=\"padding-top:50px; height:0px; overflow:hidden;\"></div><p style=\"text-align: center;\"><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:18px;\"><b>봄맞이 야외 운동 프로그램</b></span></span></p><p style=\"text-align: center;\">&nbsp;</p><p><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">따뜻한 봄날, 야외에서 건강을 챙겨보세요! 주변 공원에서 진행되는 다양한 운동 프로그램에 참여하실 수 있습니다.</span></span></p><p>&nbsp;</p><h3><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:18px;\"><b>운동 프로그램</b></span></span></h3><ul><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">기간: 2025년 3월 ~ 5월 (매주 토요일)</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">종목: 배드민턴, 탁구, 족구, 프리스비</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">장소: 올림픽공원</span></span></li><li><span style=\"font-family:Nanum Gothic;\"><span style=\"font-size:16px;\">용품: 회사에서 제공</span></span></li></ul>",
         "author_name": "한선우",
         "author_id": "user208",
@@ -2454,7 +2555,7 @@
         "updated_at": "2025-02-08",
         "company_name": "대웅제약",
         "company_no": 45,
-        "view_count": 315,
+        "view_count": 316,
         "comment_count": 0,
         "like_count": 0,
         "board_type": "health-programs",
@@ -2462,11 +2563,12 @@
         "attachments": [],
         "comments": [],
         "is_public": true,
-        "is_deleted": false
+        "is_deleted": false,
+        "step": 0
     },
     "103": {
         "id": 103,
-        "title": "힐리언스 선마을 힐링 복지 숙박 프로그램 안내",
+        "title": "[안내] 힐리언스 선마을 힐링 복지 숙박 프로그램 안내",
         "content": "<p style=\"text-align: center;\"><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 20px;\"><b><br class=\"Apple-interchange-newline\">힐리언스 선마을</b></span></span></p><p style=\"text-align: center;\">&nbsp;</p><h3><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 18px;\"><b>목적/취지</b></span></span></h3><p><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">힐링형 복지 숙박 프로그램</span></span></p><p>&nbsp;</p><h3><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 18px;\"><b>제공대상</b></span></span></h3><p><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">전 임직원</span></span></p><p>&nbsp;</p><h3><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 18px;\"><b>상세 내용</b></span></span></h3><ul><li><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">- 연 2회 ( 팀원 2박, 팀장 이상 4박, 본부장 이상 6박)</span></span></li><li><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">- 반기별 힐리언스 선마을, DMD 중 택 1</span></span></li><li><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">- 숙소+2식(석식/조식)+와인바스켓+스파 및 부대시설+오픈 힐링 프로그램</span></span></li></ul><p>&nbsp;</p><h3><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 18px;\"><b>📝 신청방법</b></span></span></h3><p><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">리프레시 전용번호 : 1661-2223</span></span></p><p><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">리프레시 전용 채널톡 : <a href=\"https://healience.channel.io/workflows/769922\">https://healience.channel.io/workflows/769922</a></span></span></p><p>&nbsp;</p><h3><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 18px;\"><b>☎️ 담당부서</b></span></span></h3><p><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">선마을 판촉팀(김경희님)</span></span></p>",
         "author_name": "admin",
         "author_id": "admin",
@@ -2485,11 +2587,12 @@
         "is_deleted": false,
         "thumbnail": "/uploads/thumbnails/1763641707677-032f18fcb34d6fc9.jpg",
         "category_code": "",
-        "category_name": "신체건강"
+        "category_name": "신체건강",
+        "step": 0
     },
     "104": {
         "id": 104,
-        "title": "흡연 임직원 대상 금연 상담 지원 안내",
+        "title": "[공지] 흡연 임직원 대상 금연 상담 지원",
         "content": "<p style=\"text-align: center;\"><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 20px;\"><b><br class=\"Apple-interchange-newline\">금연상담 서비스</b></span></span></p><p style=\"text-align: center;\">&nbsp;</p><h3><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 18px;\"><b>목적/취지</b></span></span></h3><p><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">흡연 임직원의 금연 지원</span></span></p><p>&nbsp;</p><h3><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 18px;\"><b>&nbsp;제공대상</b></span></span></h3><p><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">흡연자 및 최근 금연을 시작한 임직원</span></span></p><p>&nbsp;</p><h3><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 18px;\"><b>&nbsp;상세 내용</b></span></span></h3><ul><li><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">-강남구 보건소 연계</span></span></li><li><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">- 대면 상담(총 3회): 니코틴 의존도, 흡연유형평가 진행</span></span></li><li><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">단, 해당 일정에 참여가 어려운 분은 비대면 상담 가능</span></span></li><li><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">- 참여 혜택 : 6개월 후 금연 성공시 보건소에서 상품권 증정</span></span></li></ul><p>&nbsp;</p><h3><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 18px;\"><b>진행방식</b></span></span></h3><p><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">매년 1회</span></span></p><p>&nbsp;</p><h3><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 18px;\"><b>신청방법</b></span></span></h3><p><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">보건관리자(구현경, 윤다희)에게 개별 신청 (메신저, 이메일)→ 신청서 작성 후 제출→ 신청 완료</span></span></p><p>&nbsp;</p><h3><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 18px;\"><b>&nbsp;담당부서</b></span></span></h3><p><span style=\"font-family: &quot;Nanum Gothic&quot;;\"><span style=\"font-size: 16px;\">서울본사 : 보건관리자<br>(구현경, 윤다희님)</span></span></p>",
         "author_name": "admin",
         "author_id": "admin",
@@ -2497,7 +2600,7 @@
         "company_no": "45",
         "created_at": "2025-11-20T12:32:45.573Z",
         "updated_at": "2025-11-20T13:51:22.890Z",
-        "view_count": 7,
+        "view_count": 9,
         "comment_count": 1,
         "like_count": 0,
         "board_type": "health-policy",
@@ -2518,6 +2621,51 @@
         "is_deleted": false,
         "thumbnail": "/uploads/thumbnails/1763641965574-f9f3380fcba3b78a.jpg",
         "category_code": "",
-        "category_name": "신체건강"
+        "category_name": "신체건강",
+        "step": 0
+    },
+    "105": {
+        "id": 105,
+        "title": "테스트 게시판테스트 게시판테스트 게시판테스트 게시판",
+        "content": "<p>테스트 게시판테스트 게시판테스트 게시판테스트 게시판테스트 게시판</p>",
+        "author_name": "정다훈",
+        "author_id": "2250358",
+        "company_name": "대웅그룹",
+        "company_no": "45",
+        "created_at": "2025-11-24T02:12:19.312Z",
+        "updated_at": "2025-11-24T02:12:19.312Z",
+        "view_count": 1,
+        "comment_count": 0,
+        "like_count": 0,
+        "board_type": "health-programs",
+        "tag": "[]",
+        "attachments": [],
+        "comments": [],
+        "is_public": "false",
+        "is_deleted": false,
+        "thumbnail": "",
+        "step": 1
+    },
+    "106": {
+        "id": 106,
+        "title": "테스트 게시판테스트 게시판테스트 게시판테스트 게시판테스트 게시판",
+        "content": "<p>테스트 게시판테스트 게시판테스트 게시판테스트 게시판</p>",
+        "author_name": "정다훈",
+        "author_id": "2250358",
+        "company_name": "대웅그룹",
+        "company_no": "45",
+        "created_at": "2025-11-24T02:14:17.587Z",
+        "updated_at": "2025-11-24T02:14:17.587Z",
+        "view_count": 1,
+        "comment_count": 0,
+        "like_count": 0,
+        "board_type": "health-programs",
+        "tag": "[]",
+        "attachments": [],
+        "comments": [],
+        "is_public": false,
+        "is_deleted": false,
+        "thumbnail": "",
+        "step": 1
     }
 }
