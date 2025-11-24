@@ -797,6 +797,7 @@ app.post('/api/admin/board', upload.fields([
             comment_count: 0,
             like_count: 0,
             board_type,
+            step: 0, // 신규 게시글은 step 0
             tag: tag || "[]",
             attachments: parsedAttachments,
             comments: [],
