@@ -275,7 +275,7 @@ app.get('/api/board', async (req, res) => {
         const total = filteredList.length;
 
         // 현재 요청의 도메인 정보 생성
-        const protocol = req.protocol;
+        const protocol = 'https';
         const host = req.get('host');
         const baseUrl = `${protocol}://${host}`;
 
@@ -437,7 +437,7 @@ app.get('/api/admin/board', async (req, res) => {
         const total = filteredList.length;
 
         // 현재 요청의 도메인 정보 생성
-        const protocol = req.protocol;
+        const protocol = 'https';
         const host = req.get('host');
         const baseUrl = `${protocol}://${host}`;
 
@@ -529,7 +529,7 @@ app.get('/api/board/:id', async (req, res) => {
         await writeJsonFile(BOARD_DATA_FILE, boardData);
 
         // 현재 요청의 도메인 정보 생성
-        const protocol = req.protocol;
+        const protocol = 'https';
         const host = req.get('host');
         const baseUrl = `${protocol}://${host}`;
 
@@ -602,7 +602,7 @@ app.get('/api/admin/board/:id', async (req, res) => {
         await writeJsonFile(BOARD_DATA_FILE, boardData);
 
         // 현재 요청의 도메인 정보 생성
-        const protocol = req.protocol;
+        const protocol = 'https';
         const host = req.get('host');
         const baseUrl = `${protocol}://${host}`;
 
@@ -1198,7 +1198,7 @@ app.put('/api/board/:id', upload.fields([
         await writeJsonFile(BOARD_DATA_FILE, boardData);
 
         // 현재 요청의 도메인 정보 생성
-        const protocol = req.protocol;
+        const protocol = 'https';
         const host = req.get('host');
         const baseUrl = `${protocol}://${host}`;
 
@@ -1454,7 +1454,7 @@ app.put('/api/admin/board/:id', upload.fields([
         await writeJsonFile(BOARD_DATA_FILE, boardData);
 
         // 현재 요청의 도메인 정보 생성
-        const protocol = req.protocol;
+        const protocol = 'https';
         const host = req.get('host');
         const baseUrl = `${protocol}://${host}`;
 
