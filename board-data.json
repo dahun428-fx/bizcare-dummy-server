@@ -2667,5 +2667,340 @@
         "is_deleted": false,
         "thumbnail": "",
         "step": 1
+    },
+    "107": {
+        "id": 107,
+        "title": "테스트CKEDITORCKEDITORCKEDITORCKEDITOR",
+        "content": "<p>테스트CKEDITORCKEDITORCKEDITORCKEDITOR테스트CKEDITORCKEDITORCKEDITORCKEDITOR테스트CKEDITORCKEDITORCKEDITORCKEDITOR</p>\r\n",
+        "author_name": "admin",
+        "author_id": "admin",
+        "created_at": "2025-11-25T01:22:50.053Z",
+        "updated_at": "2025-11-25T01:22:50.053Z",
+        "view_count": 4,
+        "comment_count": 0,
+        "like_count": 0,
+        "board_type": "health-programs",
+        "step": 1,
+        "tag": "[]",
+        "attachments": [],
+        "comments": [],
+        "is_public": true,
+        "is_deleted": false,
+        "thumbnail": ""
+    },
+    "108": {
+        "id": 108,
+        "title": "테스트테스트테스트테스트",
+        "content": "<p>테스트테스트테스트테스트</p>\r\n",
+        "author_name": "admin",
+        "author_id": "admin",
+        "created_at": "2025-11-25T01:26:22.756Z",
+        "updated_at": "2025-11-25T01:26:22.756Z",
+        "view_count": 0,
+        "comment_count": 0,
+        "like_count": 0,
+        "board_type": "health-programs",
+        "step": 0,
+        "tag": "[]",
+        "attachments": [],
+        "comments": [],
+        "is_public": true,
+        "is_deleted": false,
+        "thumbnail": ""
+    },
+    "109": {
+        "id": 109,
+        "title": "테스트테스트테스트",
+        "content": "<p>테스트테스트테스트테스트</p>\r\n",
+        "author_name": "admin",
+        "author_id": "admin",
+        "created_at": "2025-11-25T01:26:34.917Z",
+        "updated_at": "2025-11-25T01:26:34.917Z",
+        "view_count": 0,
+        "comment_count": 0,
+        "like_count": 0,
+        "board_type": "health-programs",
+        "step": 0,
+        "tag": "[]",
+        "attachments": [],
+        "comments": [],
+        "is_public": true,
+        "is_deleted": false,
+        "thumbnail": ""
+    },
+    "110": {
+        "id": 110,
+        "title": "테스트테스트테스트테스트테스트테스트테스트테스트",
+        "content": "<p>테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트</p>\r\n",
+        "author_name": "admin",
+        "author_id": "admin",
+        "company_name": "대웅그룹",
+        "company_no": "45",
+        "created_at": "2025-11-25T01:32:25.518Z",
+        "updated_at": "2025-11-25T01:33:09.430Z",
+        "view_count": 14,
+        "comment_count": 0,
+        "like_count": 0,
+        "board_type": "health-programs",
+        "step": 1,
+        "tag": "[\"테스트\"]",
+        "attachments": [
+            {
+                "id": 1,
+                "name": "áá¡áá¡á«áá´áá¥á«áá¡á¼AIáá©ááµ_ááªáá§á«áá§á¯.pptx",
+                "size": 2099727,
+                "url": "/uploads/attachments/1764034389418-13a48fff18b601c7.pptx",
+                "download_url": "/api/download/1764034389418-13a48fff18b601c7.pptx",
+                "created_at": "2025-11-25T01:33:09.430Z"
+            },
+            {
+                "id": 2,
+                "name": "âááµá«áá²ááµá¸áá¡áá¡ ááµá¨áá®áá³á¸ áá¡á«áá¢áá¡áá­.pdf",
+                "size": 271384,
+                "url": "/uploads/attachments/1764034389426-e12890973ab13898.pdf",
+                "download_url": "/api/download/1764034389426-e12890973ab13898.pdf",
+                "created_at": "2025-11-25T01:33:09.430Z"
+            }
+        ],
+        "comments": [],
+        "is_public": true,
+        "is_deleted": false,
+        "thumbnail": ""
+    },
+    "111": {
+        "id": 111,
+        "title": "테스트테스트테스트테스트테스트",
+        "content": "<p>테스트테스트테스트테스트테스트테스트</p>\r\n",
+        "author_name": "admin",
+        "author_id": "admin",
+        "company_name": "대웅그룹",
+        "company_no": "45",
+        "created_at": "2025-11-25T01:34:19.503Z",
+        "updated_at": "2025-11-25T01:35:36.182Z",
+        "view_count": 8,
+        "comment_count": 0,
+        "like_count": 0,
+        "board_type": "health-policy",
+        "step": 1,
+        "tag": "[\"테스트\"]",
+        "attachments": [
+            {
+                "id": 1,
+                "name": "áá¡áá¡á«áá´ áá¥á«áá¡á¼ AI áá©ááµ UI áá¢á¨áá¡á¼áá§á«áá§á¼.pptx",
+                "size": 685631,
+                "url": "/uploads/attachments/1764034536175-ce0127f06e9991ab.pptx",
+                "download_url": "/api/download/1764034536175-ce0127f06e9991ab.pptx",
+                "created_at": "2025-11-25T01:35:36.182Z"
+            }
+        ],
+        "comments": [],
+        "is_public": true,
+        "is_deleted": false,
+        "thumbnail": "",
+        "category_code": "",
+        "category_name": "신체건강"
+    },
+    "112": {
+        "id": 112,
+        "title": "테스트테스트테스트테스트테스트",
+        "content": "<p>테스트테스트테스트테스트테스트</p>\r\n",
+        "author_name": "admin",
+        "author_id": "admin",
+        "company_name": "대웅그룹",
+        "company_no": "45",
+        "created_at": "2025-11-25T01:36:43.740Z",
+        "updated_at": "2025-11-25T01:45:49.021Z",
+        "view_count": 17,
+        "comment_count": 0,
+        "like_count": 0,
+        "board_type": "health-policy",
+        "step": 1,
+        "tag": "[\"테스트\"]",
+        "attachments": [
+            {
+                "id": 11,
+                "name": "ááµáá³áá¦áá¥ ááµáá²áá¥á¯ ááªáá§á«.pptx",
+                "size": 4859426,
+                "url": "/uploads/attachments/1764034603718-a204f9baa27a577b.pptx",
+                "download_url": "/api/download/1764034603718-a204f9baa27a577b.pptx",
+                "created_at": "2025-11-25T01:36:43.740Z"
+            },
+            {
+                "id": 12,
+                "name": "main_visual3.jpg",
+                "size": 249558,
+                "url": "/uploads/attachments/1764034603732-de118c7be2889b8c.jpg",
+                "download_url": "/api/download/1764034603732-de118c7be2889b8c.jpg",
+                "created_at": "2025-11-25T01:36:43.740Z"
+            },
+            {
+                "id": 13,
+                "name": "ááµáá³áá¦áá¥ ááµáá²áá¥á¯ ááªáá§á« ( áá©áá¡ááµá¯ ).pptx",
+                "size": 1495848,
+                "url": "/uploads/attachments/1764034662326-2e4ac422e142c679.pptx",
+                "download_url": "/api/download/1764034662326-2e4ac422e142c679.pptx",
+                "created_at": "2025-11-25T01:37:42.358Z"
+            }
+        ],
+        "comments": [],
+        "is_public": true,
+        "is_deleted": false,
+        "thumbnail": "/uploads/thumbnails/1764034603740-bc9089834f4a592b.jpg",
+        "category_code": "",
+        "category_name": "신체건강"
+    },
+    "113": {
+        "id": 113,
+        "title": "테스틈테스틈테스틈테스틈테스틈테스틈",
+        "content": "<p>테스틈테스틈테스틈테스틈테스틈테스틈</p>\r\n",
+        "author_name": "admin",
+        "author_id": "admin",
+        "company_name": "대웅그룹",
+        "company_no": "45",
+        "created_at": "2025-11-25T01:52:01.631Z",
+        "updated_at": "2025-11-25T01:52:01.631Z",
+        "view_count": 1,
+        "comment_count": 0,
+        "like_count": 0,
+        "board_type": "health-policy",
+        "step": 1,
+        "tag": "[\"테스틈\"]",
+        "attachments": [
+            {
+                "id": 14,
+                "name": "ááµáá³áá¦áá¥ ááµáá²áá¥á¯ ááªáá§á« ( áá©áá¡ááµá¯ ).pptx",
+                "size": 1495848,
+                "url": "/uploads/attachments/1764035521608-4ca7034e1eb5cf33.pptx",
+                "download_url": "/api/download/1764035521608-4ca7034e1eb5cf33.pptx",
+                "created_at": "2025-11-25T01:52:01.631Z"
+            },
+            {
+                "id": 15,
+                "name": "ááµáá³áá¦áá¥-AIáá©ááµ ááµááµááµ.pptx",
+                "size": 5610408,
+                "url": "/uploads/attachments/1764035521615-b9af1186d3e3e004.pptx",
+                "download_url": "/api/download/1764035521615-b9af1186d3e3e004.pptx",
+                "created_at": "2025-11-25T01:52:01.631Z"
+            },
+            {
+                "id": 16,
+                "name": "(25.11.01) DNT áá¡áá³á·ááµá¸áá¢á¼ ááµá¾ áá¢ááµá«áá§á¼ááµ ááµáá®á«áá¡á«.xlsx",
+                "size": 169805,
+                "url": "/uploads/attachments/1764035521624-0504762b913f2394.xlsx",
+                "download_url": "/api/download/1764035521624-0504762b913f2394.xlsx",
+                "created_at": "2025-11-25T01:52:01.631Z"
+            },
+            {
+                "id": 17,
+                "name": "44e696e5-be4f-4c98-b84b-1583c0422b5c_áá¢ááªááµáá§á¨.pdf",
+                "size": 216335,
+                "url": "/uploads/attachments/1764035521624-ae343fbfdadff2fd.pdf",
+                "download_url": "/api/download/1764035521624-ae343fbfdadff2fd.pdf",
+                "created_at": "2025-11-25T01:52:01.631Z"
+            },
+            {
+                "id": 18,
+                "name": "[AIáá©ááµ]_ááµáá¡ááµáá© áá¦áá³áá³_250904.xlsx",
+                "size": 148688,
+                "url": "/uploads/attachments/1764035521624-45505d5949b9c98d.xlsx",
+                "download_url": "/api/download/1764035521624-45505d5949b9c98d.xlsx",
+                "created_at": "2025-11-25T01:52:01.631Z"
+            }
+        ],
+        "comments": [],
+        "is_public": true,
+        "is_deleted": false,
+        "thumbnail": "/uploads/thumbnails/1764035521631-0b9424cd97e62dc4.jpg",
+        "category_code": "",
+        "category_name": "마음건강"
+    },
+    "114": {
+        "id": 114,
+        "title": "테스틈테스틈테스틈",
+        "content": "<p>테스틈테스틈테스틈</p>\r\n",
+        "author_name": "admin",
+        "author_id": "admin",
+        "company_name": "대웅그룹",
+        "company_no": "45",
+        "created_at": "2025-11-25T01:52:25.310Z",
+        "updated_at": "2025-11-25T01:52:25.310Z",
+        "view_count": 4,
+        "comment_count": 0,
+        "like_count": 0,
+        "board_type": "health-policy",
+        "step": 1,
+        "tag": "[]",
+        "attachments": [
+            {
+                "id": 19,
+                "name": "(DNT) áá¢ááµá«áá§á¼ááµ áá±áá¡á¸áá£á¼ááµá¨.xlsx",
+                "size": 13528,
+                "url": "/uploads/attachments/1764035545301-87f3d3dc10694ab2.xlsx",
+                "download_url": "/api/download/1764035545301-87f3d3dc10694ab2.xlsx",
+                "created_at": "2025-11-25T01:52:25.310Z"
+            }
+        ],
+        "comments": [],
+        "is_public": true,
+        "is_deleted": false,
+        "thumbnail": "",
+        "category_code": "",
+        "category_name": "신체건강"
+    },
+    "115": {
+        "id": 115,
+        "title": "ㅌㅌㅊㅁㅊㅁㄴㅊ",
+        "content": "<p>인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;인코딩 및&nbsp;</p>\r\n",
+        "author_name": "admin",
+        "author_id": "admin",
+        "company_name": "대웅그룹",
+        "company_no": "45",
+        "created_at": "2025-11-25T02:00:36.728Z",
+        "updated_at": "2025-11-25T03:07:29.456Z",
+        "view_count": 57,
+        "comment_count": 0,
+        "like_count": 0,
+        "board_type": "health-policy",
+        "step": 1,
+        "tag": "[]",
+        "attachments": [
+            {
+                "id": 20,
+                "name": "나만의 건강 AI 코치 UI 색상변경.pptx",
+                "originalname": "나만의 건강 AI 코치 UI 색상변경.pptx",
+                "size": 685631,
+                "url": "/uploads/attachments/1764036036709-807917c9c27d9a7f.pptx",
+                "download_url": "/api/download/1764036036709-807917c9c27d9a7f.pptx",
+                "created_at": "2025-11-25T02:00:36.728Z"
+            }
+        ],
+        "comments": [],
+        "is_public": true,
+        "is_deleted": true,
+        "thumbnail": "/uploads/thumbnails/1764040039406-a6bcb9048d9e78af.jpg",
+        "category_code": "",
+        "category_name": "신체건강"
+    },
+    "116": {
+        "id": 116,
+        "title": "asdfvdsvasdvasd",
+        "content": "<p>vasvadsvasdvasdv</p>\r\n",
+        "author_name": "admin",
+        "author_id": "admin",
+        "company_name": "대웅그룹",
+        "company_no": "45",
+        "created_at": "2025-11-25T03:08:00.307Z",
+        "updated_at": "2025-11-25T03:08:10.021Z",
+        "view_count": 3,
+        "comment_count": 0,
+        "like_count": 0,
+        "board_type": "health-programs",
+        "step": 1,
+        "tag": "[]",
+        "attachments": [],
+        "comments": [],
+        "is_public": true,
+        "is_deleted": false,
+        "thumbnail": ""
     }
 }

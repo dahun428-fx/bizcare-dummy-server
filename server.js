@@ -692,9 +692,12 @@ app.post('/api/admin/board', upload.fields([
         if (req.files && req.files['attachments']) {
             for (const file of req.files['attachments']) {
                 maxAttachmentId++;
+                // multer에서 받은 originalname을 Buffer로 변환 후 UTF-8로 디코딩
+                const decodedName = Buffer.from(file.originalname, 'latin1').toString('utf8');
                 parsedAttachments.push({
                     id: maxAttachmentId,
-                    name: file.originalname,
+                    name: decodedName,
+                    originalname: decodedName,
                     size: file.size,
                     url: `/uploads/attachments/${file.filename}`,
                     download_url: `/api/download/${file.filename}`,
@@ -721,6 +724,7 @@ app.post('/api/admin/board', upload.fields([
                             parsedAttachments.push({
                                 id: maxAttachmentId,
                                 name: attachment.name || fileName,
+                                originalname: attachment.name || attachment.originalname || fileName,
                                 size: fileStats.size,
                                 url: `/uploads/attachments/${fileName}`,
                                 download_url: `/api/download/${fileName}`,
@@ -733,6 +737,7 @@ app.post('/api/admin/board', upload.fields([
                             parsedAttachments.push({
                                 id: maxAttachmentId,
                                 name: attachment.name || 'unknown',
+                                originalname: attachment.name || attachment.originalname || 'unknown',
                                 size: attachment.size || 0,
                                 url: attachment.url,
                                 download_url: attachment.download_url || attachment.url,
@@ -745,6 +750,7 @@ app.post('/api/admin/board', upload.fields([
                         parsedAttachments.push({
                             id: maxAttachmentId,
                             name: attachment.name || 'file',
+                            originalname: attachment.name || attachment.originalname || 'file',
                             size: attachment.size || 0,
                             url: attachment.url,
                             download_url: attachment.download_url || attachment.url,
@@ -870,9 +876,12 @@ app.post('/api/board', upload.fields([
         if (req.files && req.files['attachments']) {
             for (const file of req.files['attachments']) {
                 maxAttachmentId++;
+                // multer에서 받은 originalname을 Buffer로 변환 후 UTF-8로 디코딩
+                const decodedName = Buffer.from(file.originalname, 'latin1').toString('utf8');
                 parsedAttachments.push({
                     id: maxAttachmentId,
-                    name: file.originalname,
+                    name: decodedName,
+                    originalname: decodedName,
                     size: file.size,
                     url: `/uploads/attachments/${file.filename}`,
                     download_url: `/api/download/${file.filename}`,
@@ -899,6 +908,7 @@ app.post('/api/board', upload.fields([
                             parsedAttachments.push({
                                 id: maxAttachmentId,
                                 name: attachment.name || fileName,
+                                originalname: attachment.name || attachment.originalname || fileName,
                                 size: fileStats.size,
                                 url: `/uploads/attachments/${fileName}`,
                                 download_url: `/api/download/${fileName}`,
@@ -911,6 +921,7 @@ app.post('/api/board', upload.fields([
                             parsedAttachments.push({
                                 id: maxAttachmentId,
                                 name: attachment.name || 'unknown',
+                                originalname: attachment.name || attachment.originalname || 'unknown',
                                 size: attachment.size || 0,
                                 url: attachment.url,
                                 download_url: attachment.download_url || attachment.url,
@@ -923,6 +934,7 @@ app.post('/api/board', upload.fields([
                         parsedAttachments.push({
                             id: maxAttachmentId,
                             name: attachment.name || 'file',
+                            originalname: attachment.name || attachment.originalname || 'file',
                             size: attachment.size || 0,
                             url: attachment.url,
                             download_url: attachment.download_url || attachment.url,
@@ -1013,7 +1025,7 @@ app.put('/api/board/:id', upload.fields([
 ]), async (req, res) => {
     try {
         const { id } = req.params;
-        const { title, board_type, content, tag, company_name, company_no, category_code, category_name, thumbnail, attachments } = req.body;
+        const { title, board_type, content, tag, company_name, company_no, category_code, category_name, thumbnail, attachments, delete_thumbnail } = req.body;
 
         const boardData = await readJsonFile(BOARD_DATA_FILE);
         const post = boardData[id];
@@ -1036,6 +1048,12 @@ app.put('/api/board/:id', upload.fields([
         if (company_no !== undefined) post.company_no = company_no;
         if (category_code !== undefined) post.category_code = category_code;
         if (category_name !== undefined) post.category_name = category_name;
+
+        // delete_thumbnail 처리 (삭제 요청 시 빈 문자열로 설정)
+        if (delete_thumbnail === 'true' || delete_thumbnail === true) {
+            post.thumbnail = '';
+            console.log('썸네일 삭제 요청: 빈 문자열로 설정');
+        }
 
         // thumbnail 처리
         // 1. req.files에서 thumbnail 필드로 업로드된 파일 처리
@@ -1064,6 +1082,20 @@ app.put('/api/board/:id', upload.fields([
             }
         }
 
+        // deleted_attachments 처리 (삭제할 파일 ID 목록)
+        if (deleted_attachments) {
+            try {
+                const deletedIds = typeof deleted_attachments === 'string' ? JSON.parse(deleted_attachments) : deleted_attachments;
+                if (Array.isArray(deletedIds) && deletedIds.length > 0) {
+                    // 삭제할 ID가 아닌 파일만 필터링
+                    post.attachments = (post.attachments || []).filter(att => !deletedIds.includes(att.id));
+                    console.log(`${deletedIds.length}개 첨부파일 삭제: ${deletedIds.join(', ')}`);
+                }
+            } catch (e) {
+                console.error('deleted_attachments 파싱 실패:', e);
+            }
+        }
+
         // attachments 처리
         // 1. req.files에서 attachments 필드로 업로드된 파일 처리
         let uploadedAttachments = [];
@@ -1076,9 +1108,12 @@ app.put('/api/board/:id', upload.fields([
 
             for (const file of req.files['attachments']) {
                 maxAttachmentId++;
+                // multer에서 받은 originalname을 Buffer로 변환 후 UTF-8로 디코딩
+                const decodedName = Buffer.from(file.originalname, 'latin1').toString('utf8');
                 uploadedAttachments.push({
                     id: maxAttachmentId,
-                    name: file.originalname,
+                    name: decodedName,
+                    originalname: decodedName,
                     size: file.size,
                     url: `/uploads/attachments/${file.filename}`,
                     download_url: `/api/download/${file.filename}`,
@@ -1246,7 +1281,7 @@ app.put('/api/admin/board/:id', upload.fields([
 ]), async (req, res) => {
     try {
         const { id } = req.params;
-        const { title, board_type, content, tag, company_name, company_no, category_code, category_name, thumbnail, attachments } = req.body;
+        const { title, board_type, content, tag, company_name, company_no, category_code, category_name, thumbnail, attachments, deleted_attachments, delete_thumbnail } = req.body;
 
         const boardData = await readJsonFile(BOARD_DATA_FILE);
         const post = boardData[id];
@@ -1269,6 +1304,12 @@ app.put('/api/admin/board/:id', upload.fields([
         if (company_no !== undefined) post.company_no = company_no;
         if (category_code !== undefined) post.category_code = category_code;
         if (category_name !== undefined) post.category_name = category_name;
+
+        // delete_thumbnail 처리 (삭제 요청 시 빈 문자열로 설정)
+        if (delete_thumbnail === 'true' || delete_thumbnail === true) {
+            post.thumbnail = '';
+            console.log('썸네일 삭제 요청: 빈 문자열로 설정');
+        }
 
         // thumbnail 처리
         // 1. req.files에서 thumbnail 필드로 업로드된 파일 처리
@@ -1297,6 +1338,20 @@ app.put('/api/admin/board/:id', upload.fields([
             }
         }
 
+        // deleted_attachments 처리 (삭제할 파일 ID 목록)
+        if (deleted_attachments) {
+            try {
+                const deletedIds = typeof deleted_attachments === 'string' ? JSON.parse(deleted_attachments) : deleted_attachments;
+                if (Array.isArray(deletedIds) && deletedIds.length > 0) {
+                    // 삭제할 ID가 아닌 파일만 필터링
+                    post.attachments = (post.attachments || []).filter(att => !deletedIds.includes(att.id));
+                    console.log(`${deletedIds.length}개 첨부파일 삭제: ${deletedIds.join(', ')}`);
+                }
+            } catch (e) {
+                console.error('deleted_attachments 파싱 실패:', e);
+            }
+        }
+
         // attachments 처리
         // 1. req.files에서 attachments 필드로 업로드된 파일 처리
         let uploadedAttachments = [];
@@ -1309,9 +1364,12 @@ app.put('/api/admin/board/:id', upload.fields([
 
             for (const file of req.files['attachments']) {
                 maxAttachmentId++;
+                // multer에서 받은 originalname을 Buffer로 변환 후 UTF-8로 디코딩
+                const decodedName = Buffer.from(file.originalname, 'latin1').toString('utf8');
                 uploadedAttachments.push({
                     id: maxAttachmentId,
-                    name: file.originalname,
+                    name: decodedName,
+                    originalname: decodedName,
                     size: file.size,
                     url: `/uploads/attachments/${file.filename}`,
                     download_url: `/api/download/${file.filename}`,
@@ -2024,7 +2082,7 @@ app.get('/api/download/:fileName', async (req, res) => {
                 if (post.attachments && post.attachments.length > 0) {
                     for (const att of post.attachments) {
                         if (att.url && att.url.includes(fileName)) {
-                            originalName = att.name || fileName;
+                            originalName = att.originalname || att.name || fileName;
                             break outerLoop;
                         }
                     }
@@ -2034,9 +2092,10 @@ app.get('/api/download/:fileName', async (req, res) => {
             console.error('원본 파일명 찾기 실패:', err);
         }
 
-        // UTF-8 인코딩된 파일명으로 다운로드 (RFC 5987)
+        // UTF-8 인코딩된 파일명으로 다운로드 (RFC 5987 + fallback)
         const encodedFileName = encodeURIComponent(originalName);
-        res.setHeader('Content-Disposition', `attachment; filename*=UTF-8''${encodedFileName}`);
+        // filename과 filename* 둘 다 제공하여 브라우저 호환성 향상
+        res.setHeader('Content-Disposition', `attachment; filename="${originalName}"; filename*=UTF-8''${encodedFileName}`);
         res.setHeader('Content-Type', 'application/octet-stream');
 
         // 파일 전송
