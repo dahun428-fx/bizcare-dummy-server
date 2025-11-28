@@ -655,7 +655,6 @@ app.post('/api/admin/board', upload.fields([
     { name: 'thumbnail', maxCount: 1 },
     { name: 'attachments', maxCount: 10 }
 ]), async (req, res) => {
-    console.log('req.files:', req);
     try {
         const { title, board_type, company_name, company_no, content, author_name, author_id, tag, category_code, category_name, thumbnail, attachments } = req.body;
 
@@ -842,6 +841,7 @@ app.post('/api/board', upload.fields([
 ]), async (req, res) => {
     try {
         const { title, board_type, company_name, company_no, content, author_name, author_id, tag, category_code, category_name, thumbnail, attachments, is_public } = req.body;
+        console.log('req.files:', req.files);
 
         if (!title || !content || !author_name || !author_id || !board_type) {
             return res.status(400).json({
@@ -990,6 +990,7 @@ app.post('/api/board', upload.fields([
             tag: tag || "[]",
             attachments: parsedAttachments,
             comments: [],
+            step: 0,
             is_public: is_public === "false" ? false : true,
             is_deleted: false,
             thumbnail: localThumbnail // 모든 게시글 타입에 thumbnail 추가
@@ -1025,7 +1026,7 @@ app.put('/api/board/:id', upload.fields([
 ]), async (req, res) => {
     try {
         const { id } = req.params;
-        const { title, board_type, content, tag, company_name, company_no, category_code, category_name, thumbnail, attachments, delete_thumbnail } = req.body;
+        const { title, board_type, content, tag, company_name, company_no, category_code, category_name, thumbnail, attachments, delete_thumbnail, deleted_attachments } = req.body;
 
         const boardData = await readJsonFile(BOARD_DATA_FILE);
         const post = boardData[id];
@@ -1083,7 +1084,7 @@ app.put('/api/board/:id', upload.fields([
         }
 
         // deleted_attachments 처리 (삭제할 파일 ID 목록)
-        if (deleted_attachments) {
+        if (deleted_attachments && deleted_attachments.length > 0) {
             try {
                 const deletedIds = typeof deleted_attachments === 'string' ? JSON.parse(deleted_attachments) : deleted_attachments;
                 if (Array.isArray(deletedIds) && deletedIds.length > 0) {
@@ -1339,7 +1340,7 @@ app.put('/api/admin/board/:id', upload.fields([
         }
 
         // deleted_attachments 처리 (삭제할 파일 ID 목록)
-        if (deleted_attachments) {
+        if (deleted_attachments && deleted_attachments.length > 0) {
             try {
                 const deletedIds = typeof deleted_attachments === 'string' ? JSON.parse(deleted_attachments) : deleted_attachments;
                 if (Array.isArray(deletedIds) && deletedIds.length > 0) {
@@ -1745,37 +1746,40 @@ app.put('/api/board/comments/:commentId', async (req, res) => {
         }
 
         const boardData = await readJsonFile(BOARD_DATA_FILE);
+        const targetCommentId = parseInt(commentId);
+        let updatedComment = null;
+        let foundPostId = null;
 
-        // 모든 게시글에서 해당 댓글 찾기
-        let foundPost = null;
-        let commentIndex = -1;
-
+        // 모든 게시글을 순회하면서 해당 댓글 ID를 가진 댓글 수정
         for (const [postId, post] of Object.entries(boardData)) {
-            const idx = post.comments.findIndex(c => c.id === parseInt(commentId));
-            if (idx !== -1) {
-                foundPost = post;
-                commentIndex = idx;
-                break;
+            if (post.comments && post.comments.length > 0) {
+                const commentIndex = post.comments.findIndex(c => c.id === targetCommentId);
+                if (commentIndex !== -1) {
+                    post.comments[commentIndex].content = content;
+                    updatedComment = post.comments[commentIndex];
+                    foundPostId = postId;
+                    boardData[postId] = post;
+                    break; // 첫 번째 댓글을 찾으면 중단
+                }
             }
         }
 
-        if (!foundPost || commentIndex === -1) {
+        if (!updatedComment) {
             return res.status(404).json({
                 success: false,
                 message: '댓글을 찾을 수 없습니다.'
             });
         }
 
-        foundPost.comments[commentIndex].content = content;
-        boardData[foundPost.id] = foundPost;
         await writeJsonFile(BOARD_DATA_FILE, boardData);
 
         res.json({
             success: true,
             message: '댓글이 수정되었습니다.',
-            data: foundPost.comments[commentIndex]
+            data: updatedComment
         });
     } catch (error) {
+        console.error('댓글 수정 에러:', error);
         res.status(500).json({
             success: false,
             message: '댓글 수정 실패',
@@ -1791,37 +1795,39 @@ app.delete('/api/board/comments/:commentId', async (req, res) => {
         const { permanent } = req.query; // ?permanent=true 시 물리 삭제
 
         const boardData = await readJsonFile(BOARD_DATA_FILE);
+        const targetCommentId = parseInt(commentId);
+        let found = false;
 
-        // 모든 게시글에서 해당 댓글 찾기
-        let foundPost = null;
-        let commentIndex = -1;
-
+        // 모든 게시글을 순회하면서 해당 댓글 ID를 가진 댓글 삭제
         for (const [postId, post] of Object.entries(boardData)) {
-            const idx = post.comments.findIndex(c => c.id === parseInt(commentId));
-            if (idx !== -1) {
-                foundPost = post;
-                commentIndex = idx;
-                break;
+            if (post.comments && post.comments.length > 0) {
+                const commentIndex = post.comments.findIndex(c => c.id === targetCommentId);
+
+                if (commentIndex !== -1) {
+                    if (permanent === 'true') {
+                        // 물리 삭제: 해당 댓글 제거
+                        post.comments.splice(commentIndex, 1);
+                    } else {
+                        // 논리 삭제: is_deleted를 true로 설정
+                        post.comments[commentIndex].is_deleted = true;
+                    }
+
+                    // comment_count 업데이트
+                    post.comment_count = post.comments.filter(c => !c.is_deleted).length;
+                    boardData[postId] = post;
+                    found = true;
+                    break; // 첫 번째 댓글을 찾으면 중단
+                }
             }
         }
 
-        if (!foundPost || commentIndex === -1) {
+        if (!found) {
             return res.status(404).json({
                 success: false,
                 message: '댓글을 찾을 수 없습니다.'
             });
         }
 
-        if (permanent === 'true') {
-            // 물리 삭제
-            foundPost.comments.splice(commentIndex, 1);
-        } else {
-            // 논리 삭제
-            foundPost.comments[commentIndex].is_deleted = true;
-        }
-
-        foundPost.comment_count = foundPost.comments.filter(c => !c.is_deleted).length;
-        boardData[foundPost.id] = foundPost;
         await writeJsonFile(BOARD_DATA_FILE, boardData);
 
         res.json({
@@ -1829,15 +1835,14 @@ app.delete('/api/board/comments/:commentId', async (req, res) => {
             message: '댓글이 삭제되었습니다.'
         });
     } catch (error) {
+        console.error('댓글 삭제 에러:', error);
         res.status(500).json({
             success: false,
             message: '댓글 삭제 실패',
             error: error.message
         });
     }
-});
-
-// 8-1. 댓글 삭제 상태 설정 (PATCH /api/board/comments/:commentId/deleted)
+});// 8-1. 댓글 삭제 상태 설정 (PATCH /api/board/comments/:commentId/deleted)
 app.patch('/api/board/comments/:commentId/deleted', async (req, res) => {
     try {
         const { commentId } = req.params;
