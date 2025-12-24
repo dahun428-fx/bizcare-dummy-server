@@ -1,0 +1,456 @@
+{
+    "boards": [
+        {
+            "id": 1,
+            "board_type": "PHYSICAL",
+            "category_code": "CUSTOM_FIT",
+            "category_name": "개인 맞춤 체력관리",
+            "title": "Updated Title",
+            "summary": "팀장급 이상·유소견자 대상 1:1 트레이닝\n위치: 힐리언스코어센터 6층",
+            "thumbnail_url": "/uploads/thumbnails/sample-thumb.jpg",
+            "icon_url": "/uploads/icons/sample-icon.png",
+            "description": "맞춤형 1:1 코칭을 통해, 임직원의 근골격계 및 대사성 질환 예방 및 건강 증진을 도모합니다.",
+            "button_name": "신청하기",
+            "button_url": "https://example.com/apply",
+            "tag": [
+                "건강관리",
+                "체력관리",
+                "PT"
+            ],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "content_type_name": "제공대상",
+                    "description": "전 직원 대상"
+                },
+                {
+                    "content_type": "DETAIL",
+                    "content_type_name": "상세내용",
+                    "description": "건강검진 비용 100% 지원 및 유급 휴가 제공"
+                },
+                {
+                    "content_type": "HOW_TO_USE",
+                    "content_type_name": "신청방법",
+                    "description": "사내 포털 신청 → 검진기관 선택 → 예약 확정"
+                }
+            ],
+            "company_no": 1,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": true,
+            "is_deleted": false,
+            "created_at": "2025-01-15T14:30:00.000Z",
+            "updated_at": "2025-12-23T07:31:52.815Z"
+        },
+        {
+            "id": 2,
+            "board_type": "PHYSICAL",
+            "category_code": "MUSCULOSKELETAL",
+            "category_name": "근골격계 대사성 질환",
+            "title": "근골격계 예방 프로그램",
+            "summary": "거북목, 허리 통증 예방을 위한 스트레칭 교실",
+            "thumbnail_url": "",
+            "icon_url": "",
+            "description": "사무직 임직원을 위한 점심시간 스트레칭 프로그램입니다.",
+            "button_name": "자세히 보기",
+            "button_url": "https://example.com/stretching",
+            "tag": [
+                "스트레칭",
+                "거북목",
+                "건강"
+            ],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "content_type_name": "제공대상",
+                    "description": "사무직 임직원"
+                },
+                {
+                    "content_type": "DETAIL",
+                    "content_type_name": "상세내용",
+                    "description": "매주 화/목 점심시간 20분 스트레칭"
+                },
+                {
+                    "content_type": "HOW_TO_USE",
+                    "content_type_name": "신청방법",
+                    "description": "현장 참여"
+                }
+            ],
+            "company_no": 1,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": false,
+            "is_deleted": false,
+            "created_at": "2025-01-20T09:00:00.000Z",
+            "updated_at": "2025-01-20T09:00:00.000Z"
+        },
+        {
+            "id": 3,
+            "board_type": "PHYSICAL",
+            "category_code": "HEALTH_CHECK",
+            "category_name": "건강검진 데이터 서비스",
+            "title": "건강검진 데이터 분석 서비스",
+            "summary": "내 건강검진 결과를 한눈에 분석해드립니다.",
+            "thumbnail_url": "",
+            "icon_url": "",
+            "description": "AI 기반 건강검진 결과 분석 리포트 제공",
+            "button_name": "분석하기",
+            "button_url": "https://example.com/analysis",
+            "tag": [
+                "건강검진",
+                "AI분석"
+            ],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "content_type_name": "제공대상",
+                    "description": "건강검진 수검자"
+                },
+                {
+                    "content_type": "DETAIL",
+                    "content_type_name": "상세내용",
+                    "description": "검진 결과 PDF 업로드 시 분석 리포트 제공"
+                },
+                {
+                    "content_type": "HOW_TO_USE",
+                    "content_type_name": "신청방법",
+                    "description": "웹사이트 접속 후 업로드"
+                }
+            ],
+            "company_no": 1,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": true,
+            "is_deleted": true,
+            "created_at": "2025-02-01T10:00:00.000Z",
+            "updated_at": "2025-02-01T10:00:00.000Z"
+        },
+        {
+            "id": 4,
+            "board_type": "PHYSICAL",
+            "category_code": "RECOVERY",
+            "category_name": "일상 활력 피로회복",
+            "title": "피로회복 힐링 프로그램",
+            "summary": "지친 몸과 마음을 위한 힐링 타임",
+            "thumbnail_url": "",
+            "icon_url": "",
+            "description": "전문 마사지사와 함께하는 피로회복 프로그램",
+            "button_name": "예약하기",
+            "button_url": "https://example.com/healing",
+            "tag": [
+                "힐링",
+                "피로회복",
+                "마사지"
+            ],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "content_type_name": "제공대상",
+                    "description": "신청자 추첨"
+                },
+                {
+                    "content_type": "DETAIL",
+                    "content_type_name": "상세내용",
+                    "description": "전신 마사지 60분 코스"
+                },
+                {
+                    "content_type": "HOW_TO_USE",
+                    "content_type_name": "신청방법",
+                    "description": "사내 게시판 댓글 신청"
+                }
+            ],
+            "company_no": 1,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": false,
+            "is_deleted": true,
+            "created_at": "2025-02-10T15:00:00.000Z",
+            "updated_at": "2025-02-10T15:00:00.000Z"
+        },
+        {
+            "id": 5,
+            "board_type": "MENTAL",
+            "category_code": null,
+            "category_name": null,
+            "title": "마음건강 상담 서비스",
+            "summary": "전문 심리상담사와 함께하는 마음 치유",
+            "thumbnail_url": "",
+            "icon_url": "",
+            "description": "업무 스트레스, 대인관계 고민 등 마음의 짐을 덜어드립니다.",
+            "button_name": "상담신청",
+            "button_url": "https://example.com/counseling",
+            "tag": [
+                "심리상담",
+                "멘탈케어",
+                "스트레스"
+            ],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "content_type_name": "제공대상",
+                    "description": "전 직원 (익명 보장)"
+                },
+                {
+                    "content_type": "DETAIL",
+                    "content_type_name": "상세내용",
+                    "description": "1:1 대면 또는 비대면 상담 (최대 5회 지원)"
+                },
+                {
+                    "content_type": "HOW_TO_USE",
+                    "content_type_name": "신청방법",
+                    "description": "전용 핫라인 전화 예약"
+                }
+            ],
+            "company_no": 1,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": true,
+            "is_deleted": false,
+            "created_at": "2025-03-01T09:30:00.000Z",
+            "updated_at": "2025-03-01T09:30:00.000Z"
+        },
+        {
+            "id": 6,
+            "board_type": "MENTAL",
+            "category_code": null,
+            "category_name": null,
+            "title": "스트레스 관리 워크숍",
+            "summary": "스트레스를 에너지로 바꾸는 방법",
+            "thumbnail_url": "",
+            "icon_url": "",
+            "description": "스트레스 관리 전문가 초청 강연 및 워크숍",
+            "button_name": "참가신청",
+            "button_url": "https://example.com/workshop",
+            "tag": [
+                "워크숍",
+                "스트레스",
+                "특강"
+            ],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "content_type_name": "제공대상",
+                    "description": "선착순 50명"
+                },
+                {
+                    "content_type": "DETAIL",
+                    "content_type_name": "상세내용",
+                    "description": "3월 20일 오후 2시 ~ 5시, 본사 대강당"
+                },
+                {
+                    "content_type": "HOW_TO_USE",
+                    "content_type_name": "신청방법",
+                    "description": "LMS 교육 신청"
+                }
+            ],
+            "company_no": 1,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": true,
+            "is_deleted": false,
+            "created_at": "2025-03-05T11:00:00.000Z",
+            "updated_at": "2025-03-05T11:00:00.000Z"
+        },
+        {
+            "id": 7,
+            "board_type": "PHYSICAL",
+            "category_code": "CUSTOM_FIT",
+            "category_name": "개인 맞춤 체력관리",
+            "title": "Test Content",
+            "summary": "Test Summary",
+            "thumbnail_url": "/uploads/thumbnail-1766452202787-80556235.jpg",
+            "icon_url": "",
+            "description": "Test Description",
+            "button_name": "Apply",
+            "button_url": "https://test.com",
+            "tag": [],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "description": "Target"
+                }
+            ],
+            "company_no": 1,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": true,
+            "is_deleted": false,
+            "created_at": "2025-12-23T01:10:02.788Z",
+            "updated_at": "2025-12-23T01:10:02.788Z"
+        },
+        {
+            "id": 8,
+            "board_type": "PHYSICAL",
+            "category_code": "CUSTOM_FIT",
+            "category_name": "개인 맞춤 체력관리",
+            "title": "Test Content",
+            "summary": "Test Summary",
+            "thumbnail_url": "/uploads/thumbnail-1766452459772-511641415.jpg",
+            "icon_url": "",
+            "description": "Test Description",
+            "button_name": "Apply",
+            "button_url": "https://test.com",
+            "tag": [],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "description": "Target"
+                }
+            ],
+            "company_no": 1,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": true,
+            "is_deleted": false,
+            "created_at": "2025-12-23T01:14:19.773Z",
+            "updated_at": "2025-12-23T01:14:19.773Z"
+        },
+        {
+            "id": 9,
+            "board_type": "PHYSICAL",
+            "category_code": "CUSTOM_FIT",
+            "category_name": "개인 맞춤 체력관리",
+            "title": "테스트12345",
+            "summary": "테스트12345",
+            "thumbnail_url": "/uploads/thumbnail-1766474313607-292560274.jpg",
+            "icon_url": "/uploads/icon-1766474313609-751450430.jpg",
+            "description": "테스트12345",
+            "button_name": "1223444",
+            "button_url": "http://테스트123444444",
+            "tag": [
+                "테스트1234",
+                "33333",
+                "ㅊㅊㅊㅊㅊ"
+            ],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "description": "테스트12345"
+                },
+                {
+                    "content_type": "DETAIL",
+                    "description": "테스트1234"
+                },
+                {
+                    "content_type": "HOW_TO_USE",
+                    "description": "테스트1234"
+                }
+            ],
+            "company_no": 45,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": true,
+            "is_deleted": false,
+            "created_at": "2025-12-23T01:23:27.731Z",
+            "updated_at": "2025-12-23T07:18:33.611Z"
+        },
+        {
+            "id": 10,
+            "board_type": "PHYSICAL",
+            "category_code": "CUSTOM_FIT",
+            "category_name": "개인 맞춤 체력관리",
+            "title": "Test Content",
+            "summary": "Test Summary",
+            "thumbnail_url": "/uploads/thumbnail-1766475112755-467039163.jpg",
+            "icon_url": "",
+            "description": "Test Description",
+            "button_name": "Apply",
+            "button_url": "https://test.com",
+            "tag": [],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "description": "Target"
+                }
+            ],
+            "company_no": 1,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": true,
+            "is_deleted": false,
+            "created_at": "2025-12-23T07:31:52.756Z",
+            "updated_at": "2025-12-23T07:31:52.756Z"
+        },
+        {
+            "id": 11,
+            "board_type": "MENTAL",
+            "category_code": null,
+            "category_name": null,
+            "title": "abcdefefdf",
+            "summary": "abcdefefdf",
+            "thumbnail_url": "/uploads/thumbnail-1766477037543-622771050.jpg",
+            "icon_url": "",
+            "description": "abcdefefdf",
+            "button_name": "abcdefefdf",
+            "button_url": "http://테스트1234",
+            "tag": [],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "description": "abcdefefdf"
+                },
+                {
+                    "content_type": "DETAIL",
+                    "description": "abcdefefdfabcdefefdf"
+                },
+                {
+                    "content_type": "HOW_TO_USE",
+                    "description": "abcdefefdfabcdefefdfabcdefefdfabcdefefdf"
+                }
+            ],
+            "company_no": 45,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": true,
+            "is_deleted": false,
+            "created_at": "2025-12-23T08:03:57.556Z",
+            "updated_at": "2025-12-23T08:03:57.556Z"
+        }
+    ],
+    "companies": [
+        {
+            "company_no": 1,
+            "company_name": "대웅제약"
+        },
+        {
+            "company_no": 2,
+            "company_name": "대웅바이오"
+        }
+    ],
+    "categories": {
+        "PHYSICAL": [
+            {
+                "code": "CUSTOM_FIT",
+                "name": "개인 맞춤 체력관리"
+            },
+            {
+                "code": "MUSCULOSKELETAL",
+                "name": "근골격계 대사성 질환"
+            },
+            {
+                "code": "HEALTH_CHECK",
+                "name": "건강검진 데이터 서비스"
+            },
+            {
+                "code": "RECOVERY",
+                "name": "일상 활력 피로회복"
+            }
+        ]
+    },
+    "contentTypeNames": {
+        "TARGET": "제공대상",
+        "DETAIL": "상세내용",
+        "HOW_TO_USE": "신청방법"
+    }
+}

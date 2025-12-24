@@ -140,6 +140,13 @@ async function writeJsonFile(filePath, data) {
     }
 }
 
+// [추가] v2 API 라우터 연결
+const v2AdmBoardRouter = require('./routes/v2-adm-board');
+const v2WebBoardRouter = require('./routes/v2-web-board');
+
+app.use('/api/v2/adm/board', v2AdmBoardRouter);
+app.use('/api/v2/web/board', v2WebBoardRouter);
+
 // ==================== API 엔드포인트 ====================
 
 // 0. 현재 사용자 정보 조회
