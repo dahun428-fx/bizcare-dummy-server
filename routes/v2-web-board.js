@@ -7,12 +7,21 @@ const path = require('path');
 const DATA_FILE = path.join(__dirname, '../data/health-care-data.json');
 
 // 유틸리티: JSON 읽기
+// 유틸리티: JSON 읽기
 async function readData() {
     try {
         const data = await fs.readFile(DATA_FILE, 'utf8');
-        return JSON.parse(data);
+        const result = JSON.parse(data);
+
+        // 필수 필드가 없는 경우 초기화
+        if (!result.boards) result.boards = [];
+        if (!result.companies) result.companies = [];
+        if (!result.categories) result.categories = {};
+        if (!result.contentTypeNames) result.contentTypeNames = {};
+
+        return result;
     } catch (error) {
-        if (error.code === 'ENOENT') {
+        if (error.code === 'ENOENT' || error instanceof SyntaxError) {
             return { boards: [], companies: [], categories: {}, contentTypeNames: {} };
         }
         throw error;
@@ -54,6 +63,8 @@ function filterUserListFields(item) {
         thumbnail_url: item.thumbnail_url,
         icon_url: item.icon_url,
         tag: item.tag,
+        button_name: item.button_name,
+        button_url: item.button_url,
         company_no: item.company_no,
         company_name: item.company_name,
         created_at: item.created_at
@@ -92,7 +103,7 @@ router.get('/', async (req, res) => {
         const pagedList = list.slice(startIndex, startIndex + sizeNum);
 
         // 현재 요청의 도메인 정보 생성
-        const protocol = 'https';
+        const protocol = 'http';
         const host = req.get('host');
         const baseUrl = `${protocol}://${host}`;
 
@@ -140,7 +151,7 @@ router.get('/:id', async (req, res) => {
         const responseItem = filterUserFields(item);
 
         // 현재 요청의 도메인 정보 생성
-        const protocol = 'https';
+        const protocol = 'http';
         const host = req.get('host');
         const baseUrl = `${protocol}://${host}`;
 

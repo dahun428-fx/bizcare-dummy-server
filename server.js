@@ -1607,7 +1607,7 @@ app.patch('/api/admin/board/:id/private', async (req, res) => {
 });
 
 // 5-3. 게시글 삭제 처리 (PATCH /api/admin/board/:id/deleted) - admin만 가능
-app.patch('/api/admin/board/:id/deleted', async (req, res) => {
+app.delete('/api/admin/board/:id/deleted', async (req, res) => {
     try {
         const { id } = req.params;
 
