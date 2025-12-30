@@ -23,7 +23,18 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage: storage });
 
-// 유틸리티: JSON 읽기
+// HTML 엔티티 디코딩 함수
+function decodeHtmlEntities(text) {
+    if (typeof text !== 'string') return text;
+    return text
+        .replace(/&quot;/g, '"')
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&#39;/g, "'")
+        .replace(/&apos;/g, "'");
+}
+
 // 유틸리티: JSON 읽기
 async function readData() {
     try {
@@ -174,11 +185,47 @@ router.post('/', upload.fields([
         // JSON 파싱 (tag, contents)
         let tag = [];
         let contents = [];
+
+        // 디버깅 로그 추가
+        console.log('=== POST Request Data ===');
+        console.log('body.tag type:', typeof body.tag, 'value:', body.tag);
+        console.log('body.contents type:', typeof body.contents, 'value:', body.contents);
+        console.log('body.company_no type:', typeof body.company_no, 'value:', body.company_no);
+        console.log('body.is_public type:', typeof body.is_public, 'value:', body.is_public);
+
         try {
-            if (body.tag) tag = JSON.parse(body.tag);
-            if (body.contents) contents = JSON.parse(body.contents);
+            if (body.tag) {
+                // 이미 배열인 경우 그대로 사용, 문자열이면 파싱
+                if (typeof body.tag === 'string') {
+                    const decodedTag = decodeHtmlEntities(body.tag);
+                    console.log('Decoded tag:', decodedTag);
+                    tag = JSON.parse(decodedTag);
+                } else if (Array.isArray(body.tag)) {
+                    tag = body.tag;
+                }
+            }
+
+            if (body.contents) {
+                // 이미 배열인 경우 그대로 사용, 문자열이면 파싱
+                if (typeof body.contents === 'string') {
+                    const decodedContents = decodeHtmlEntities(body.contents);
+                    console.log('Decoded contents:', decodedContents);
+                    contents = JSON.parse(decodedContents);
+                } else if (Array.isArray(body.contents)) {
+                    contents = body.contents;
+                }
+            }
         } catch (e) {
             console.error("JSON parse error:", e);
+            console.error("Failed to parse - tag:", body.tag);
+            console.error("Failed to parse - contents:", body.contents);
+            return res.status(400).json({
+                success: false,
+                message: "Invalid JSON format in tag or contents",
+                error: e.message,
+                receivedTag: body.tag,
+                receivedContents: body.contents
+            });
         }
 
         // 카테고리 이름 매핑
@@ -284,11 +331,45 @@ router.put('/:id', upload.fields([
         if (body.is_public !== undefined) item.is_public = body.is_public === 'true' || body.is_public === true;
 
         // JSON 파싱 업데이트
+        // 디버깅 로그 추가
+        console.log('=== PUT Request Data ===');
+        console.log('body.tag type:', typeof body.tag, 'value:', body.tag);
+        console.log('body.contents type:', typeof body.contents, 'value:', body.contents);
+        console.log('body.is_public type:', typeof body.is_public, 'value:', body.is_public);
+
         try {
-            if (body.tag) item.tag = JSON.parse(body.tag);
-            if (body.contents) item.contents = JSON.parse(body.contents);
+            if (body.tag) {
+                // 이미 배열인 경우 그대로 사용, 문자열이면 파싱
+                if (typeof body.tag === 'string') {
+                    const decodedTag = decodeHtmlEntities(body.tag);
+                    console.log('Decoded tag:', decodedTag);
+                    item.tag = JSON.parse(decodedTag);
+                } else if (Array.isArray(body.tag)) {
+                    item.tag = body.tag;
+                }
+            }
+
+            if (body.contents) {
+                // 이미 배열인 경우 그대로 사용, 문자열이면 파싱
+                if (typeof body.contents === 'string') {
+                    const decodedContents = decodeHtmlEntities(body.contents);
+                    console.log('Decoded contents:', decodedContents);
+                    item.contents = JSON.parse(decodedContents);
+                } else if (Array.isArray(body.contents)) {
+                    item.contents = body.contents;
+                }
+            }
         } catch (e) {
             console.error("JSON parse error:", e);
+            console.error("Failed to parse - tag:", body.tag);
+            console.error("Failed to parse - contents:", body.contents);
+            return res.status(400).json({
+                success: false,
+                message: "Invalid JSON format in tag or contents",
+                error: e.message,
+                receivedTag: body.tag,
+                receivedContents: body.contents
+            });
         }
 
         item.updated_at = new Date().toISOString();
