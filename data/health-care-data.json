@@ -5,343 +5,329 @@
             "board_type": "PHYSICAL",
             "category_code": "CUSTOM_FIT",
             "category_name": "개인 맞춤 체력관리",
-            "title": "Updated Title",
-            "summary": "팀장급 이상·유소견자 대상 1:1 트레이닝\n위치: 힐리언스코어센터 6층",
-            "thumbnail_url": "/uploads/thumbnails/sample-thumb.jpg",
-            "icon_url": "/uploads/icons/sample-icon.png",
-            "description": "맞춤형 1:1 코칭을 통해, 임직원의 근골격계 및 대사성 질환 예방 및 건강 증진을 도모합니다.",
+            "title": "대웅지킴이 (개인 맞춤형 PT)",
+            "summary": "개인 맞춤형 트레이닝 제공",
+            "thumbnail_url": "/uploads/thumbnail-1767130336656-846960151.jpg",
+            "icon_url": "",
+            "description": "맞춤형 1:1 코칭을 통한 임직원의 근골격계 및 대사성 질환 예방과 맞춤형 체력 관리",
             "button_name": "신청하기",
-            "button_url": "https://example.com/apply",
+            "button_url": "https://www.dwp.healiencecorecenter.com/",
             "tag": [
-                "건강관리",
-                "체력관리",
-                "PT"
+                "대웅지킴이",
+                "신체건강",
+                "개인"
             ],
             "contents": [
                 {
                     "content_type": "TARGET",
-                    "content_type_name": "제공대상",
-                    "description": "전 직원 대상"
+                    "description": "- 직책자 : 팀장 이상\n- 유소견자 : 근골격계 및 대사성 질환자 (대웅지킴이 메일로 진단서 제출 후 신청)\n- 고출석자 : 그룹 운동 출석률 80% 이상 (그룹 운동 종료 메일에서 확인 후 신청)"
                 },
                 {
                     "content_type": "DETAIL",
-                    "content_type_name": "상세내용",
-                    "description": "건강검진 비용 100% 지원 및 유급 휴가 제공"
+                    "description": "- 내용: 1:1 개인 맞춤형 트레이닝 진행\n- 위치: 힐리언스코어센터 2층, 6층\n- 모집 기간 : 상시 모집 (매월 마지막 일자에 다음 달 오픈)"
                 },
                 {
                     "content_type": "HOW_TO_USE",
-                    "content_type_name": "신청방법",
-                    "description": "사내 포털 신청 → 검진기관 선택 → 예약 확정"
+                    "description": "1. 대웅지킴이 사이트 접속\n2. 희망 날짜 선택\n3. 상세 내용 입력 후 신청\n4. 확정메일 확인 후 참여"
                 }
             ],
-            "company_no": 1,
+            "company_no": 45,
             "company_name": "대웅제약",
             "author_id": "admin",
             "author_name": "관리자",
             "is_public": true,
             "is_deleted": false,
-            "created_at": "2025-01-15T14:30:00.000Z",
-            "updated_at": "2025-12-23T07:31:52.815Z"
+            "created_at": "2025-12-30T21:32:16.662Z",
+            "updated_at": "2025-12-30T21:32:16.662Z"
         },
         {
             "id": 2,
             "board_type": "PHYSICAL",
-            "category_code": "MUSCULOSKELETAL",
-            "category_name": "근골격계 대사성 질환",
-            "title": "근골격계 예방 프로그램",
-            "summary": "거북목, 허리 통증 예방을 위한 스트레칭 교실",
-            "thumbnail_url": "",
+            "category_code": "CUSTOM_FIT",
+            "category_name": "개인 맞춤 체력관리",
+            "title": "대웅지킴이 (모여서 하는 GX)",
+            "summary": "전 임직원 대상 그룹운동 (거북목&middot;골반교정&middot;다이어트 등)",
+            "thumbnail_url": "/uploads/thumbnail-1767130482538-674543194.png",
             "icon_url": "",
-            "description": "사무직 임직원을 위한 점심시간 스트레칭 프로그램입니다.",
-            "button_name": "자세히 보기",
-            "button_url": "https://example.com/stretching",
+            "description": "임직원의 근골격계 및 대사성 질환 예방과 맞춤형 체력 관리",
+            "button_name": "신청하기",
+            "button_url": "https://www.dwp.healiencecorecenter.com/",
             "tag": [
-                "스트레칭",
-                "거북목",
-                "건강"
+                "대웅지킴이",
+                "단체",
+                "신체건강"
             ],
             "contents": [
                 {
                     "content_type": "TARGET",
-                    "content_type_name": "제공대상",
-                    "description": "사무직 임직원"
+                    "description": "전 임직원"
                 },
                 {
                     "content_type": "DETAIL",
-                    "content_type_name": "상세내용",
-                    "description": "매주 화/목 점심시간 20분 스트레칭"
+                    "description": "- 내용: 거북목 개선, 라운드 숄더 개선, 허리 불편감 개선, 골반 불균형 개선, 다이어트 등\n- 위치: 힐리언스코어센터 2층, 6층\n- 모집 기간 : 상시 모집 (매월 마지막 일자에 다음 달 오픈)"
                 },
                 {
                     "content_type": "HOW_TO_USE",
-                    "content_type_name": "신청방법",
-                    "description": "현장 참여"
+                    "description": "1. 대웅지킴이 사이트 접속\n2. 희망 프로그램 선택\n3. 신청하기 클릭 후 사번, 이름 입력하여 신청"
                 }
             ],
-            "company_no": 1,
+            "company_no": 45,
             "company_name": "대웅제약",
             "author_id": "admin",
             "author_name": "관리자",
-            "is_public": false,
+            "is_public": true,
             "is_deleted": false,
-            "created_at": "2025-01-20T09:00:00.000Z",
-            "updated_at": "2025-01-20T09:00:00.000Z"
+            "created_at": "2025-12-30T21:34:42.551Z",
+            "updated_at": "2025-12-30T21:34:42.551Z"
         },
         {
             "id": 3,
             "board_type": "PHYSICAL",
-            "category_code": "HEALTH_CHECK",
-            "category_name": "건강검진 데이터 서비스",
-            "title": "건강검진 데이터 분석 서비스",
-            "summary": "내 건강검진 결과를 한눈에 분석해드립니다.",
-            "thumbnail_url": "",
+            "category_code": "MUSCULOSKELETAL",
+            "category_name": "근골격계 대사성 질환",
+            "title": "건강의자 및 높낮이 조절데스크",
+            "summary": "근골격계 질환자 맞춤 근무환경 제공",
+            "thumbnail_url": "/uploads/thumbnail-1767130689444-182935471.jpg",
             "icon_url": "",
-            "description": "AI 기반 건강검진 결과 분석 리포트 제공",
-            "button_name": "분석하기",
-            "button_url": "https://example.com/analysis",
+            "description": "허리디스크 등의 질환이 있는 임직원에 한해 건강의자 및 높낮이 조절데스크 제공",
+            "button_name": "",
+            "button_url": "",
             "tag": [
-                "건강검진",
-                "AI분석"
+                "건강의자",
+                "신체건강",
+                "근골격계"
             ],
             "contents": [
                 {
                     "content_type": "TARGET",
-                    "content_type_name": "제공대상",
-                    "description": "건강검진 수검자"
+                    "description": "전 임직원"
                 },
                 {
                     "content_type": "DETAIL",
-                    "content_type_name": "상세내용",
-                    "description": "검진 결과 PDF 업로드 시 분석 리포트 제공"
+                    "description": "- 내용 : 허리디스크, 근골격계 질환이 있는 임직원의 경우 건강의자 및 높낮이 조절데스크 제공\n- 모집 기간 : 상시 모집"
                 },
                 {
                     "content_type": "HOW_TO_USE",
-                    "content_type_name": "신청방법",
-                    "description": "웹사이트 접속 후 업로드"
+                    "description": "증빙자료 첨부하여 총무팀 메일로 신청"
                 }
             ],
-            "company_no": 1,
+            "company_no": 45,
             "company_name": "대웅제약",
             "author_id": "admin",
             "author_name": "관리자",
             "is_public": true,
-            "is_deleted": true,
-            "created_at": "2025-02-01T10:00:00.000Z",
-            "updated_at": "2025-02-01T10:00:00.000Z"
+            "is_deleted": false,
+            "created_at": "2025-12-30T21:38:09.449Z",
+            "updated_at": "2025-12-30T21:38:09.449Z"
         },
         {
             "id": 4,
             "board_type": "PHYSICAL",
-            "category_code": "RECOVERY",
-            "category_name": "일상 활력 피로회복",
-            "title": "피로회복 힐링 프로그램",
-            "summary": "지친 몸과 마음을 위한 힐링 타임",
-            "thumbnail_url": "",
+            "category_code": "MUSCULOSKELETAL",
+            "category_name": "근골격계 대사성 질환",
+            "title": "만성질환 관리(웰체크)",
+            "summary": "혈압, 혈당, 복약 기록 관리\r\n실시간 병원 연동",
+            "thumbnail_url": "/uploads/thumbnail-1767130811507-987162441.jpg",
             "icon_url": "",
-            "description": "전문 마사지사와 함께하는 피로회복 프로그램",
-            "button_name": "예약하기",
-            "button_url": "https://example.com/healing",
-            "tag": [
-                "힐링",
-                "피로회복",
-                "마사지"
-            ],
+            "description": "고혈압&middot;당뇨 등 만성질환 유소견 임직원 포함 전 임직원을 대상으로 혈압, 혈당, 복약 기록 등을 주기적으로 관리해 건강한 생활 습관 형성 지원",
+            "button_name": "앱 다운로드",
+            "button_url": "https://api.well-check.co.kr/download",
+            "tag": [],
             "contents": [
                 {
                     "content_type": "TARGET",
-                    "content_type_name": "제공대상",
-                    "description": "신청자 추첨"
+                    "description": "전 임직원"
                 },
                 {
                     "content_type": "DETAIL",
-                    "content_type_name": "상세내용",
-                    "description": "전신 마사지 60분 코스"
+                    "description": "- 내용 : 우리 동네 병원과 실시간으로 혈압&middot;혈당&middot;복약 및 검진 결과 등 환자의 건강 데이터가 연동되어 맞춤진료에 도움을 주는 만성질환 전문 건강관리 플렛폼"
                 },
                 {
                     "content_type": "HOW_TO_USE",
-                    "content_type_name": "신청방법",
-                    "description": "사내 게시판 댓글 신청"
+                    "description": "앱 다운로드 후 서비스 이용"
                 }
             ],
-            "company_no": 1,
+            "company_no": 45,
             "company_name": "대웅제약",
             "author_id": "admin",
             "author_name": "관리자",
-            "is_public": false,
-            "is_deleted": true,
-            "created_at": "2025-02-10T15:00:00.000Z",
-            "updated_at": "2025-02-10T15:00:00.000Z"
+            "is_public": true,
+            "is_deleted": false,
+            "created_at": "2025-12-30T21:40:11.513Z",
+            "updated_at": "2025-12-30T21:40:11.513Z"
         },
         {
             "id": 5,
-            "board_type": "MENTAL",
-            "category_code": null,
-            "category_name": null,
-            "title": "마음건강 상담 서비스",
-            "summary": "전문 심리상담사와 함께하는 마음 치유",
-            "thumbnail_url": "",
+            "board_type": "PHYSICAL",
+            "category_code": "MUSCULOSKELETAL",
+            "category_name": "근골격계 대사성 질환",
+            "title": "대사 건강 관리, 다이어트(웰다)",
+            "summary": "연속혈당측정기를 통한 혈당 분석 + 생활 습관 코칭",
+            "thumbnail_url": "/uploads/thumbnail-1767130953236-318694013.jpg",
             "icon_url": "",
-            "description": "업무 스트레스, 대인관계 고민 등 마음의 짐을 덜어드립니다.",
-            "button_name": "상담신청",
-            "button_url": "https://example.com/counseling",
+            "description": "올바른 생활 습관을 형성하여 대사 건강을 회복하고, 건강해져서 살이 빠지는 변화를 제공하는 혈당 관리 솔루션",
+            "button_name": "앱 다운로드",
+            "button_url": "https://play.google.com/store/search?q=%EC%9B%B0%EB%8B%A4&amp;c=apps",
             "tag": [
-                "심리상담",
-                "멘탈케어",
-                "스트레스"
+                "웰다",
+                "신체건강"
             ],
             "contents": [
                 {
                     "content_type": "TARGET",
-                    "content_type_name": "제공대상",
-                    "description": "전 직원 (익명 보장)"
+                    "description": "전 임직원"
                 },
                 {
                     "content_type": "DETAIL",
-                    "content_type_name": "상세내용",
-                    "description": "1:1 대면 또는 비대면 상담 (최대 5회 지원)"
+                    "description": "- 내용 : 비만 개선부터 만성 질환 예방까지 현대인들의 대사 건강 및 웰니스를 위한 디지털 헬스케어 플랫폼"
                 },
                 {
                     "content_type": "HOW_TO_USE",
-                    "content_type_name": "신청방법",
-                    "description": "전용 핫라인 전화 예약"
+                    "description": "앱 다운로드 후 서비스 이용"
                 }
             ],
-            "company_no": 1,
+            "company_no": 45,
             "company_name": "대웅제약",
             "author_id": "admin",
             "author_name": "관리자",
             "is_public": true,
             "is_deleted": false,
-            "created_at": "2025-03-01T09:30:00.000Z",
-            "updated_at": "2025-03-01T09:30:00.000Z"
+            "created_at": "2025-12-30T21:42:33.240Z",
+            "updated_at": "2025-12-30T21:42:33.240Z"
         },
         {
             "id": 6,
-            "board_type": "MENTAL",
-            "category_code": null,
-            "category_name": null,
-            "title": "스트레스 관리 워크숍",
-            "summary": "스트레스를 에너지로 바꾸는 방법",
-            "thumbnail_url": "",
+            "board_type": "PHYSICAL",
+            "category_code": "HEALTH_CHECK",
+            "category_name": "건강검진 데이터 서비스",
+            "title": "임직원 종합 건강검진",
+            "summary": "검진 예약/검진결과 확인 및 관리 가능",
+            "thumbnail_url": "/uploads/thumbnail-1767131201984-818995521.png",
             "icon_url": "",
-            "description": "스트레스 관리 전문가 초청 강연 및 워크숍",
-            "button_name": "참가신청",
-            "button_url": "https://example.com/workshop",
-            "tag": [
-                "워크숍",
-                "스트레스",
-                "특강"
-            ],
+            "description": "임직원 종합건강검진 지원 및 통합 관리",
+            "button_name": "",
+            "button_url": "",
+            "tag": [],
             "contents": [
                 {
                     "content_type": "TARGET",
-                    "content_type_name": "제공대상",
-                    "description": "선착순 50명"
+                    "description": "계약직, 인턴 제외 전 임직원 종합검진 지원 \n(사무직: 2년에 1회, 영업/생산/연구직: 1년에 1회)"
                 },
                 {
                     "content_type": "DETAIL",
-                    "content_type_name": "상세내용",
-                    "description": "3월 20일 오후 2시 ~ 5시, 본사 대강당"
+                    "description": "- 내용 : 비즈 36.5 사이트 통해 검진 예약부터 사후 관리까지 가능, 국가에서 지원하는 공단검진 대비 정밀검사 진행 가능"
                 },
                 {
                     "content_type": "HOW_TO_USE",
-                    "content_type_name": "신청방법",
-                    "description": "LMS 교육 신청"
+                    "description": "1. 비즈 36.5 접속\n2. 로그인 후 검진 예약 > 예약 신청"
                 }
             ],
-            "company_no": 1,
+            "company_no": 45,
             "company_name": "대웅제약",
             "author_id": "admin",
             "author_name": "관리자",
             "is_public": true,
             "is_deleted": false,
-            "created_at": "2025-03-05T11:00:00.000Z",
-            "updated_at": "2025-03-05T11:00:00.000Z"
+            "created_at": "2025-12-30T21:46:41.991Z",
+            "updated_at": "2025-12-30T21:46:41.991Z"
         },
         {
             "id": 7,
             "board_type": "PHYSICAL",
-            "category_code": "CUSTOM_FIT",
-            "category_name": "개인 맞춤 체력관리",
-            "title": "Test Content",
-            "summary": "Test Summary",
-            "thumbnail_url": "/uploads/thumbnail-1766452202787-80556235.jpg",
+            "category_code": "HEALTH_CHECK",
+            "category_name": "건강검진 데이터 서비스",
+            "title": "나만의 건강 AI코치",
+            "summary": "검진결과 분석, 어려운 용어 해석, 검진결과 비교, 맞춤형 건강 솔루션 제공",
+            "thumbnail_url": "/uploads/thumbnail-1767131334975-38533895.png",
             "icon_url": "",
-            "description": "Test Description",
-            "button_name": "Apply",
-            "button_url": "https://test.com",
+            "description": "AI 기반 개인 맞춤형 건강 분석 서비스",
+            "button_name": "",
+            "button_url": "",
             "tag": [],
             "contents": [
                 {
                     "content_type": "TARGET",
-                    "description": "Target"
+                    "description": "전 임직원"
+                },
+                {
+                    "content_type": "DETAIL",
+                    "description": "- 내용 : AI와 전문가가 검증한 데이터 기반 건강 관리 솔루션을 제공하는 검진 전용 AI 코칭 챗봇"
+                },
+                {
+                    "content_type": "HOW_TO_USE",
+                    "description": "1. 비즈 36.5 접속\n2. 로그인 후 나만의 건강 AI코치 클릭"
                 }
             ],
-            "company_no": 1,
+            "company_no": 45,
             "company_name": "대웅제약",
             "author_id": "admin",
             "author_name": "관리자",
             "is_public": true,
             "is_deleted": false,
-            "created_at": "2025-12-23T01:10:02.788Z",
-            "updated_at": "2025-12-23T01:10:02.788Z"
+            "created_at": "2025-12-30T21:48:54.982Z",
+            "updated_at": "2025-12-30T21:48:54.982Z"
         },
         {
             "id": 8,
             "board_type": "PHYSICAL",
-            "category_code": "CUSTOM_FIT",
-            "category_name": "개인 맞춤 체력관리",
-            "title": "Test Content",
-            "summary": "Test Summary",
-            "thumbnail_url": "/uploads/thumbnail-1766452459772-511641415.jpg",
+            "category_code": "HEALTH_CHECK",
+            "category_name": "건강검진 데이터 서비스",
+            "title": "건강관리실 연속심전도검사 (모비케어)",
+            "summary": "심방세동, 빈맥, 서맥을 비롯한 부정맥 검출에 최적화된 일상생활 심전도 검사",
+            "thumbnail_url": "/uploads/thumbnail-1767131454096-993582810.jpg",
             "icon_url": "",
-            "description": "Test Description",
-            "button_name": "Apply",
-            "button_url": "https://test.com",
+            "description": "심전도 검사 기기(모비케어) 를 통해 임직원 건강 관리 및 질병 예방",
+            "button_name": "신청하기",
+            "button_url": "https://www.bearworld.co.kr/share/page/rcalendar-main",
             "tag": [],
             "contents": [
                 {
                     "content_type": "TARGET",
-                    "description": "Target"
+                    "description": "두근거림, 어지러움, 가슴통증 등의 증상 or 고혈압, 당뇨 등 만성질환 보유 or 음주, 흡연을 하거나 스트레스, 피로감 or 심혈관질환 가족력 보유자"
+                },
+                {
+                    "content_type": "DETAIL",
+                    "description": "- 진단기기: 모비케어 (심방세동, 빈맥, 서맥을 비롯한 부정맥 검출에 최적화된 일상생활 심전도 검사)\n- 부착위치: 흉부\n- 검사 기간: 1일, 3일, 7일 (선택)\n- 유의사항\n1) 검사 과정은 검사등록/기기부착으로 약 5분 소요\n2) 모비케어 부착 시 전기장판, 안마의자 사용 불가능"
+                },
+                {
+                    "content_type": "HOW_TO_USE",
+                    "description": "1. 베어월드 > 자원 > 생활 > \"본사_건강관리실(본관B1층)\" \n2. 검사가 필요한 자원 선택하여 예약"
                 }
             ],
-            "company_no": 1,
+            "company_no": 45,
             "company_name": "대웅제약",
             "author_id": "admin",
             "author_name": "관리자",
             "is_public": true,
             "is_deleted": false,
-            "created_at": "2025-12-23T01:14:19.773Z",
-            "updated_at": "2025-12-23T01:14:19.773Z"
+            "created_at": "2025-12-30T21:50:54.100Z",
+            "updated_at": "2025-12-30T21:50:54.101Z"
         },
         {
             "id": 9,
             "board_type": "PHYSICAL",
-            "category_code": "CUSTOM_FIT",
-            "category_name": "개인 맞춤 체력관리",
-            "title": "테스트12345",
-            "summary": "테스트12345",
-            "thumbnail_url": "/uploads/thumbnail-1766474313607-292560274.jpg",
-            "icon_url": "/uploads/icon-1766474313609-751450430.jpg",
-            "description": "테스트12345",
-            "button_name": "1223444",
-            "button_url": "http://테스트123444444",
-            "tag": [
-                "테스트1234",
-                "33333",
-                "ㅊㅊㅊㅊㅊ"
-            ],
+            "category_code": "HEALTH_CHECK",
+            "category_name": "건강검진 데이터 서비스",
+            "title": "건강관리실 연속혈압검사 (카트비피)",
+            "summary": "쉽고 간편하게 야간혈압 측정 가능한 일상생활 혈압 검사",
+            "thumbnail_url": "/uploads/thumbnail-1767131647361-528849784.png",
+            "icon_url": "",
+            "description": "혈압 검사 기기(카트비피) 를 통해 임직원 건강 관리 및 질병 예방",
+            "button_name": "신청하기",
+            "button_url": "https://www.bearworld.co.kr/share/page/rcalendar-main",
+            "tag": [],
             "contents": [
                 {
                     "content_type": "TARGET",
-                    "description": "테스트12345"
+                    "description": "혈압약을 복용하고 있거나, 고혈압 환자 혹은 고혈압이 의심되는 임직원"
                 },
                 {
                     "content_type": "DETAIL",
-                    "description": "테스트1234"
+                    "description": "- 진단기기: 카트BP pro (쉽고 간편하게 야간혈압 측정 가능한 일상생활 혈압 검사)\n- 부착위치: 손가락\n- 검사 기간: 1일\n- 유의사항\n1) 검사 과정은 검사등록/기기부착으로 약 5분 소요\n2) 카트 BP pro의 경우, 건강관리실에 사이즈별 샘플이 비치되어 있으니 예약 전 착용 권장"
                 },
                 {
                     "content_type": "HOW_TO_USE",
-                    "description": "테스트1234"
+                    "description": "1. 베어월드 > 자원 > 생활 > \"본사_건강관리실(본관B1층)\" \n2. 검사가 필요한 자원 선택하여 예약"
                 }
             ],
             "company_no": 45,
@@ -350,62 +336,34 @@
             "author_name": "관리자",
             "is_public": true,
             "is_deleted": false,
-            "created_at": "2025-12-23T01:23:27.731Z",
-            "updated_at": "2025-12-23T07:18:33.611Z"
+            "created_at": "2025-12-30T21:54:07.367Z",
+            "updated_at": "2025-12-30T21:54:07.367Z"
         },
         {
             "id": 10,
             "board_type": "PHYSICAL",
-            "category_code": "CUSTOM_FIT",
-            "category_name": "개인 맞춤 체력관리",
-            "title": "Test Content",
-            "summary": "Test Summary",
-            "thumbnail_url": "/uploads/thumbnail-1766475112755-467039163.jpg",
+            "category_code": "RECOVERY",
+            "category_name": "일상 활력 피로회복",
+            "title": "안마의자",
+            "summary": "본관 1층 로비 / 1회 30분",
+            "thumbnail_url": "/uploads/thumbnail-1767131790307-623035088.jpg",
             "icon_url": "",
-            "description": "Test Description",
-            "button_name": "Apply",
-            "button_url": "https://test.com",
+            "description": "피로 완화 및 집중력 향상을 위한 힐링존 운영",
+            "button_name": "신청하기",
+            "button_url": "https://www.bearworld.co.kr/share/page/rcalendar-main",
             "tag": [],
             "contents": [
                 {
                     "content_type": "TARGET",
-                    "description": "Target"
-                }
-            ],
-            "company_no": 1,
-            "company_name": "대웅제약",
-            "author_id": "admin",
-            "author_name": "관리자",
-            "is_public": true,
-            "is_deleted": false,
-            "created_at": "2025-12-23T07:31:52.756Z",
-            "updated_at": "2025-12-23T07:31:52.756Z"
-        },
-        {
-            "id": 11,
-            "board_type": "MENTAL",
-            "category_code": null,
-            "category_name": null,
-            "title": "abcdefefdf",
-            "summary": "abcdefefdf",
-            "thumbnail_url": "/uploads/thumbnail-1766477037543-622771050.jpg",
-            "icon_url": "",
-            "description": "abcdefefdf",
-            "button_name": "abcdefefdf",
-            "button_url": "http://테스트1234",
-            "tag": [],
-            "contents": [
-                {
-                    "content_type": "TARGET",
-                    "description": "abcdefefdf"
+                    "description": "전 임직원"
                 },
                 {
                     "content_type": "DETAIL",
-                    "description": "abcdefefdfabcdefefdf"
+                    "description": "- 위치: 본관 1층 로비 (안마의자 4대)\n- 시간: 1회 30분, 근무 중 이용 가능"
                 },
                 {
                     "content_type": "HOW_TO_USE",
-                    "description": "abcdefefdfabcdefefdfabcdefefdfabcdefefdf"
+                    "description": "베어월드 > 자원 > 생활 > 본사_힐링존(본관1층)"
                 }
             ],
             "company_no": 45,
@@ -414,43 +372,155 @@
             "author_name": "관리자",
             "is_public": true,
             "is_deleted": false,
-            "created_at": "2025-12-23T08:03:57.556Z",
-            "updated_at": "2025-12-23T08:03:57.556Z"
-        }
-    ],
-    "companies": [
-        {
-            "company_no": 1,
-            "company_name": "대웅제약"
+            "created_at": "2025-12-30T21:56:30.313Z",
+            "updated_at": "2025-12-30T21:56:30.313Z"
         },
         {
-            "company_no": 2,
-            "company_name": "대웅바이오"
+            "id": 11,
+            "board_type": "PHYSICAL",
+            "category_code": "RECOVERY",
+            "category_name": "일상 활력 피로회복",
+            "title": "캡슐룸",
+            "summary": "본관 지하 1층 캡슐룸 / 6개실",
+            "thumbnail_url": "/uploads/thumbnail-1767131910944-549154658.jpg",
+            "icon_url": "",
+            "description": "임직원의 피로 회복과 심신 안정을 위한 휴식 공간을 제공함으로써, 업무 집중도와 복지 만족도를 높이고자 함",
+            "button_name": "신청하기",
+            "button_url": "https://www.bearworld.co.kr/share/page/rcalendar-main",
+            "tag": [],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "description": "전 임직원"
+                },
+                {
+                    "content_type": "DETAIL",
+                    "description": "- 위치: 삼성동 본사 본관 지하 1층 캡슐룸\n- 이용 시설: 캡슐룸 6개실, 빈백/수유공간 (자율이용)\n- 이용 기준: 당일 예약, 당일 사용 (사전예약 불가)\n- 이용 시간: 점심 1시간/그 외 1.5시간, 월 4회 이용 가능"
+                },
+                {
+                    "content_type": "HOW_TO_USE",
+                    "description": "베어월드 > 자원 > 생활 > 본사_휴게실_Capsule룸 (이용자 성별 구분없이 예약)"
+                }
+            ],
+            "company_no": 45,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": true,
+            "is_deleted": false,
+            "created_at": "2025-12-30T21:58:30.950Z",
+            "updated_at": "2025-12-30T21:58:30.950Z"
+        },
+        {
+            "id": 12,
+            "board_type": "PHYSICAL",
+            "category_code": "RECOVERY",
+            "category_name": "일상 활력 피로회복",
+            "title": "자전거 대여",
+            "summary": "본관, 비워크 서울 등 자전거 11대 운영",
+            "thumbnail_url": "/uploads/thumbnail-1767131993105-803842916.jpg",
+            "icon_url": "",
+            "description": "사내 이동 및 단합활동 지원",
+            "button_name": "신청하기",
+            "button_url": "https://www.bearworld.co.kr/share/page/rcalendar-main",
+            "tag": [],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "description": "전 임직원"
+                },
+                {
+                    "content_type": "DETAIL",
+                    "description": "- 위치: 본관 지하2층 주차장, 비워크서울(잠실선착장)\n- 대수: 본관 8대, 비워크서울(잠실선착장) 3대\n- 이용시간: 자율"
+                },
+                {
+                    "content_type": "HOW_TO_USE",
+                    "description": "베어월드 > 자원 > 대여 > 자전거"
+                }
+            ],
+            "company_no": 45,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": true,
+            "is_deleted": false,
+            "created_at": "2025-12-30T21:59:53.110Z",
+            "updated_at": "2025-12-30T21:59:53.110Z"
+        },
+        {
+            "id": 13,
+            "board_type": "MENTAL",
+            "category_code": null,
+            "category_name": null,
+            "title": "내 마음 보고서",
+            "summary": "심리 상태 진단 및 맞춤형 심리 보고서를 시각화된 책자 형태로 제공",
+            "thumbnail_url": "/uploads/thumbnail-1767132124118-524546679.jpg",
+            "icon_url": "",
+            "description": "전 임직원의 심리 안정과 스트레스 관리 역량 강화를 통해\r\n근로자 정신건강 증진 및 건강한 조직문화 조성",
+            "button_name": "",
+            "button_url": "",
+            "tag": [],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "description": "전 임직원"
+                },
+                {
+                    "content_type": "DETAIL",
+                    "description": "- 내용 : 개인의 고유한 심리 특성을 분석하여 심리 상태를 진단하고, 본인만의 스트레스 해소법을 제시하는 맞춤형 심리 보고서를 시각화된 책자 형태로 제공\n- 구성 :\n1) 온라인 심층 심리검사: 설문 형태로 진행되며, 개인의 정서 상태&middot;성격&middot;기질 및 스트레스 요인을 종합 분석\n2) 내 마음 보고서: 검사 결과 기반으로 개인별 심리 프로파일을 생성 및 결과를 책자 형태로 제작 및 제공\n3) 1년간 사후관리 서비스:  &lsquo;마음 관리 리마인드 메시지&rsquo; 등 지속 케어 시스템 운영\n- 제공 범위: 온라인 검사, 보고서 제작, 1년 관리 서비스 포함\n- 비고 : 개인정보 보호를 위해 심리 상담 데이터는 회사 비공개로 운영, 현재 향남&middot;오송공장에 시범 도입되어 긍정적인 반응을 얻고 있으며, 본사 및 전사 차원으로 확대 적용\n- 모집기간: 연 1회 모집"
+                },
+                {
+                    "content_type": "HOW_TO_USE",
+                    "description": "1. 본사: 베어월드 > 게시판 > 대웅그룹 > 자유 게시판 게시물 내 설문 링크 (직무스트레스 설문 조사 중 참여 희망자)\n\n2. 향남, 오송 : 홍보게시물에 기재된 OR 코드를 통해 신청서 작성\nhttps://docs.google.com/forms/d/1ko9rMk-7qmZ8IWr6qH9XOu3X4qLzgwGcUOpIYsGicZA/edit?pli=1#responses"
+                }
+            ],
+            "company_no": 45,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": true,
+            "is_deleted": false,
+            "created_at": "2025-12-30T22:02:04.121Z",
+            "updated_at": "2025-12-30T22:02:04.121Z"
+        },
+        {
+            "id": 14,
+            "board_type": "MENTAL",
+            "category_code": null,
+            "category_name": null,
+            "title": "대웅지킴이 (힐링냅 &amp; 카페인냅)",
+            "summary": "스트레스 개선 및 마음챙김 프로그램",
+            "thumbnail_url": "/uploads/thumbnail-1767132213844-853719736.jpg",
+            "icon_url": "",
+            "description": "스트레스 완화 및 심신 안정 지원",
+            "button_name": "신청하기",
+            "button_url": "https://www.dwp.healiencecorecenter.com/",
+            "tag": [],
+            "contents": [
+                {
+                    "content_type": "TARGET",
+                    "description": "전 임직원"
+                },
+                {
+                    "content_type": "DETAIL",
+                    "description": "- 내용 : 카페인냅, 힐링 냅 ( 스트레칭, 명상, 휴식으로 구성)\n- 위치: 힐리언스코어센터 6층"
+                },
+                {
+                    "content_type": "HOW_TO_USE",
+                    "description": "1. 대웅지킴이 사이트 접속\n2. 희망 프로그램 선택\n3. 신청하기 클릭 후 사번, 이름 입력하여 신청"
+                }
+            ],
+            "company_no": 45,
+            "company_name": "대웅제약",
+            "author_id": "admin",
+            "author_name": "관리자",
+            "is_public": true,
+            "is_deleted": false,
+            "created_at": "2025-12-30T22:03:33.852Z",
+            "updated_at": "2025-12-30T23:59:34.101Z"
         }
     ],
-    "categories": {
-        "PHYSICAL": [
-            {
-                "code": "CUSTOM_FIT",
-                "name": "개인 맞춤 체력관리"
-            },
-            {
-                "code": "MUSCULOSKELETAL",
-                "name": "근골격계 대사성 질환"
-            },
-            {
-                "code": "HEALTH_CHECK",
-                "name": "건강검진 데이터 서비스"
-            },
-            {
-                "code": "RECOVERY",
-                "name": "일상 활력 피로회복"
-            }
-        ]
-    },
-    "contentTypeNames": {
-        "TARGET": "제공대상",
-        "DETAIL": "상세내용",
-        "HOW_TO_USE": "신청방법"
-    }
+    "companies": [],
+    "categories": {},
+    "contentTypeNames": {}
 }

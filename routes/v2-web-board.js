@@ -74,7 +74,7 @@ function filterUserListFields(item) {
 // 1. 콘텐츠 목록 조회 (GET /)
 router.get('/', async (req, res) => {
     try {
-        const { company_no, board_type, category_code, page = 1, size = 10 } = req.query;
+        const { company_no, board_type, category_code, page = 1, size = 100 } = req.query;
         const data = await readData();
 
         // 공개되고 삭제되지 않은 콘텐츠만 조회
