@@ -543,40 +543,6 @@
         "category_code": "PHYSICAL",
         "category_name": "신체건강"
     },
-    "22": {
-        "id": 22,
-        "title": "테스트 게시글",
-        "content": "&lt;p&gt;테스트 게시글&lt;script&gt;alert(1234)&lt;/script&gt;&lt;script&gt;alert(1234)&lt;/script&gt;&lt;/p&gt;\r\n\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;script&gt;alert(1234)&lt;/script&gt;&lt;script&gt;alert(1234)&lt;/script&gt;&lt;script&gt;alert(1234)&lt;/script&gt;&lt;/p&gt;\r\n",
-        "author_name": "admin",
-        "author_id": "admin",
-        "company_name": "대웅그룹",
-        "company_no": "45",
-        "created_at": "2025-12-30T14:25:37.819Z",
-        "updated_at": "2025-12-30T23:49:15.964Z",
-        "view_count": 10,
-        "comment_count": 0,
-        "like_count": 0,
-        "board_type": "health-policy",
-        "tag": "[&quot;테스트 게시글&quot;]",
-        "attachments": [
-            {
-                "id": 5,
-                "name": "정신_대웅지킴이.jpg",
-                "originalname": "정신_대웅지킴이.jpg",
-                "size": 125702,
-                "url": "/uploads/attachments/1767104737816-3974d4a6b6834a40.jpg",
-                "download_url": "/api/download/1767104737816-3974d4a6b6834a40.jpg",
-                "created_at": "2025-12-30T14:25:37.819Z"
-            }
-        ],
-        "comments": [],
-        "step": 1,
-        "is_public": false,
-        "is_deleted": false,
-        "thumbnail": "/uploads/thumbnails/1767104737819-2dc3cefe8e487060.jpg",
-        "category_code": "PHYSICAL",
-        "category_name": "신체건강"
-    },
     "23": {
         "id": 23,
         "title": "테스트 게시글",
@@ -611,402 +577,6 @@
         "category_code": "PHYSICAL",
         "category_name": "신체건강"
     },
-    "24": {
-        "id": 24,
-        "title": "테스트 게시글",
-        "content": "&lt;p&gt;테스트 게시글&lt;/p&gt;\r\n\r\n&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;quot;&amp;#39;&amp;#39;&amp;#39;#@$@^$&lt;/p&gt;\r\n\r\n&lt;p&gt;&amp;lt;script&amp;gt;alert(1234)&amp;lt;/script&amp;gt;&lt;/p&gt;\r\n",
-        "author_name": "admin",
-        "author_id": "admin",
-        "company_name": "대웅그룹",
-        "company_no": "45",
-        "created_at": "2025-12-30T14:26:37.034Z",
-        "updated_at": "2025-12-30T23:49:58.791Z",
-        "view_count": 36,
-        "comment_count": 1,
-        "like_count": 0,
-        "board_type": "health-policy",
-        "tag": "[&quot;테스트 게시글&quot;]",
-        "attachments": [
-            {
-                "id": 7,
-                "name": "정신_대웅지킴이.jpg",
-                "originalname": "정신_대웅지킴이.jpg",
-                "size": 125702,
-                "url": "/uploads/attachments/1767104797031-625238935cae6b80.jpg",
-                "download_url": "/api/download/1767104797031-625238935cae6b80.jpg",
-                "created_at": "2025-12-30T14:26:37.034Z"
-            }
-        ],
-        "comments": [
-            {
-                "id": 7,
-                "post_id": 24,
-                "author_id": "01568",
-                "author_name": "최윤아",
-                "content": "&lt;script&gt;alert('1234')&lt;/script&gt;&lt;script&gt;alert('1234')&lt;/script&gt;",
-                "created_at": "2025-12-31 05:25",
-                "is_deleted": true
-            },
-            {
-                "id": 11,
-                "post_id": 24,
-                "author_id": "01568",
-                "author_name": "최윤아",
-                "content": "&lt;script&gt;alert('123')&lt;/script&gt;",
-                "created_at": "2025-12-31 08:03",
-                "is_deleted": false
-            }
-        ],
-        "step": 1,
-        "is_public": true,
-        "is_deleted": false,
-        "thumbnail": "/uploads/thumbnails/1767104797034-4a0bf931147be10c.jpg",
-        "category_code": "PHYSICAL",
-        "category_name": "신체건강"
-    },
-    "25": {
-        "id": 25,
-        "title": "테스트 게시글",
-        "content": "&lt;p&gt;테스트 게시글&lt;/p&gt;\r\n",
-        "author_name": "admin",
-        "author_id": "admin",
-        "company_name": "대웅그룹",
-        "company_no": "45",
-        "created_at": "2025-12-30T14:30:52.278Z",
-        "updated_at": "2025-12-30T20:05:30.992Z",
-        "view_count": 4,
-        "comment_count": 0,
-        "like_count": 0,
-        "board_type": "health-policy",
-        "tag": "[&quot;테스트 게시글&quot;]",
-        "attachments": [
-            {
-                "id": 8,
-                "name": "정신_내마음보고서.jpg",
-                "originalname": "정신_내마음보고서.jpg",
-                "size": 45140,
-                "url": "/uploads/attachments/1767105052274-5cc7328999623558.jpg",
-                "download_url": "/api/download/1767105052274-5cc7328999623558.jpg",
-                "created_at": "2025-12-30T14:30:52.278Z"
-            }
-        ],
-        "comments": [],
-        "step": 1,
-        "is_public": false,
-        "is_deleted": true,
-        "thumbnail": "/uploads/thumbnails/1767105052278-d6458c0aca1e5bef.jpg",
-        "category_code": "PHYSICAL",
-        "category_name": "신체건강"
-    },
-    "26": {
-        "id": 26,
-        "title": "123테스트 게시글ㅍㅍㅍㅍㅍ",
-        "content": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n\r\n&lt;p&gt;테스트 게시글123ㅍㅍㅍㅍㅍㅍ&lt;/p&gt;\r\n\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n",
-        "author_name": "admin",
-        "author_id": "admin",
-        "company_name": "선마을",
-        "company_no": "56",
-        "created_at": "2025-12-30T14:51:00.820Z",
-        "updated_at": "2025-12-30T20:05:08.918Z",
-        "view_count": 80,
-        "comment_count": 0,
-        "like_count": 0,
-        "board_type": "health-policy",
-        "step": 1,
-        "tag": "[]",
-        "attachments": [
-            {
-                "id": 1,
-                "name": "정신_대웅지킴이.jpg",
-                "originalname": "정신_대웅지킴이.jpg",
-                "size": 125702,
-                "url": "/uploads/attachments/1767106767784-e283b16922f1ba05.jpg",
-                "download_url": "/api/download/1767106767784-e283b16922f1ba05.jpg",
-                "created_at": "2025-12-30T14:59:27.787Z"
-            }
-        ],
-        "comments": [
-            {
-                "id": 1,
-                "post_id": 26,
-                "author_id": "01568",
-                "author_name": "최윤아",
-                "content": "ㅇㅇㅇㅇㅇㅍㅍㅍㅍㅍㅍㅍ",
-                "created_at": "2025-12-31 03:55",
-                "is_deleted": true
-            },
-            {
-                "id": 2,
-                "post_id": 26,
-                "author_id": "01568",
-                "author_name": "최윤아",
-                "content": "&lt;p&gt;hi&lt;/p&gt;",
-                "created_at": "2025-12-31 03:59",
-                "is_deleted": true
-            },
-            {
-                "id": 3,
-                "post_id": 26,
-                "author_id": "01568",
-                "author_name": "최윤아",
-                "content": "&lt;script&gt;alert('hi');&lt;/script&gt;",
-                "created_at": "2025-12-31 04:00",
-                "is_deleted": true
-            }
-        ],
-        "is_public": true,
-        "is_deleted": true,
-        "thumbnail": "/uploads/thumbnails/1767106767787-53b32992f6116585.jpg",
-        "category_code": "PHYSICAL",
-        "category_name": "신체건강"
-    },
-    "27": {
-        "id": 27,
-        "title": "테스트123",
-        "content": "테스트123",
-        "author_name": "admin",
-        "author_id": "admin",
-        "company_no": "45",
-        "created_at": "2025-12-30T17:43:17.868Z",
-        "updated_at": "2025-12-30T17:43:17.868Z",
-        "view_count": 0,
-        "comment_count": 0,
-        "like_count": 0,
-        "board_type": "PHYSICAL",
-        "step": 0,
-        "tag": "[]",
-        "attachments": [],
-        "comments": [],
-        "is_public": true,
-        "is_deleted": false,
-        "thumbnail": "/uploads/thumbnails/1767116597868-34e477fddc821cd0.jpg"
-    },
-    "28": {
-        "id": 28,
-        "title": "아ㅣ어미러ㅏ니ㅓ라인",
-        "content": "<p>아ㅣ어미러ㅏ니ㅓ라인</p>\r\n",
-        "author_name": "최윤아",
-        "author_id": "01568",
-        "company_name": "대웅그룹",
-        "company_no": "45",
-        "created_at": "2025-12-30T19:02:57.772Z",
-        "updated_at": "2025-12-30T19:17:08.046Z",
-        "view_count": 0,
-        "comment_count": 0,
-        "like_count": 0,
-        "board_type": "health-programs",
-        "tag": "[\"아ㅣ어미러ㅏ니ㅓ라인\"]",
-        "attachments": [
-            {
-                "id": 9,
-                "name": "정신_내마음보고서.jpg",
-                "originalname": "정신_내마음보고서.jpg",
-                "size": 45140,
-                "url": "/uploads/attachments/1767121377767-49bbb85142988f2b.jpg",
-                "download_url": "/api/download/1767121377767-49bbb85142988f2b.jpg",
-                "created_at": "2025-12-30T19:02:57.772Z"
-            }
-        ],
-        "comments": [],
-        "step": 0,
-        "is_public": false,
-        "is_deleted": true,
-        "thumbnail": ""
-    },
-    "29": {
-        "id": 29,
-        "title": "davdsvasdv",
-        "content": "&lt;p&gt;asdvsdv&lt;/p&gt;\r\n",
-        "author_name": "admin",
-        "author_id": "admin",
-        "company_name": "대웅그룹",
-        "company_no": "45",
-        "created_at": "2025-12-30T19:03:51.476Z",
-        "updated_at": "2025-12-30T19:34:44.739Z",
-        "view_count": 12,
-        "comment_count": 0,
-        "like_count": 0,
-        "board_type": "health-programs",
-        "step": 1,
-        "tag": "[]",
-        "attachments": [
-            {
-                "id": 10,
-                "name": "정신_내마음보고서.jpg",
-                "originalname": "정신_내마음보고서.jpg",
-                "size": 45140,
-                "url": "/uploads/attachments/1767121431472-ccfc6f83ebee83d6.jpg",
-                "download_url": "/api/download/1767121431472-ccfc6f83ebee83d6.jpg",
-                "created_at": "2025-12-30T19:03:51.476Z"
-            }
-        ],
-        "comments": [],
-        "is_public": true,
-        "is_deleted": true,
-        "thumbnail": ""
-    },
-    "30": {
-        "id": 30,
-        "title": "테스트코드",
-        "content": "&lt;p&gt;테스트코드&lt;/p&gt;\r\n\r\n&lt;p&gt;테스트코드&lt;/p&gt;\r\n\r\n&lt;p&gt;테스트코드&lt;/p&gt;\r\n\r\n&lt;p&gt;ㅇㅇㅇ&lt;/p&gt;\r\n\r\n&lt;p&gt;테스트코드&lt;/p&gt;\r\n\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n",
-        "author_name": "admin",
-        "author_id": "admin",
-        "company_name": "대웅그룹",
-        "company_no": "45",
-        "created_at": "2025-12-30T19:35:21.556Z",
-        "updated_at": "2025-12-30T20:08:26.900Z",
-        "view_count": 18,
-        "comment_count": 0,
-        "like_count": 0,
-        "board_type": "health-programs",
-        "step": 1,
-        "tag": "[]",
-        "attachments": [],
-        "comments": [],
-        "is_public": true,
-        "is_deleted": true,
-        "thumbnail": ""
-    },
-    "31": {
-        "id": 31,
-        "title": "kkkkk",
-        "content": "&lt;p&gt;&lt;script&gt;alert(&#39;1234&#39;)&lt;/script&gt;&lt;/p&gt;\r\n\r\n&lt;p&gt;ccccvcv&lt;/p&gt;\r\n\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n\r\n&lt;p&gt;&amp;lt;script&amp;gt;alert(1234)&amp;lt;/script&amp;gt;&lt;/p&gt;\r\n",
-        "author_name": "최윤아",
-        "author_id": "01568",
-        "company_name": "대웅그룹",
-        "company_no": "45",
-        "created_at": "2025-12-30T20:28:27.040Z",
-        "updated_at": "2025-12-30T23:48:23.546Z",
-        "view_count": 33,
-        "comment_count": 2,
-        "like_count": 0,
-        "board_type": "health-programs",
-        "tag": "[]",
-        "attachments": [
-            {
-                "id": 11,
-                "name": "정신_내마음보고서.jpg",
-                "originalname": "정신_내마음보고서.jpg",
-                "size": 45140,
-                "url": "/uploads/attachments/1767126507026-a16ca3009f0c3f19.jpg",
-                "download_url": "/api/download/1767126507026-a16ca3009f0c3f19.jpg",
-                "created_at": "2025-12-30T20:28:27.041Z"
-            },
-            {
-                "id": 12,
-                "name": "정신_내마음보고서.jpg",
-                "originalname": "정신_내마음보고서.jpg",
-                "size": 45140,
-                "url": "/uploads/attachments/1767126507027-2bc1038d372f15fd.jpg",
-                "download_url": "/api/download/1767126507027-2bc1038d372f15fd.jpg",
-                "created_at": "2025-12-30T20:28:27.041Z"
-            },
-            {
-                "id": 13,
-                "name": "신체_대사 건강 관리, 다이어트(웰다).jpg",
-                "originalname": "신체_대사 건강 관리, 다이어트(웰다).jpg",
-                "size": 150263,
-                "url": "/uploads/attachments/1767126507028-9ed640729c1643e2.jpg",
-                "download_url": "/api/download/1767126507028-9ed640729c1643e2.jpg",
-                "created_at": "2025-12-30T20:28:27.041Z"
-            },
-            {
-                "id": 14,
-                "name": "신체_건강관리실 연속심전도검사.jpg",
-                "originalname": "신체_건강관리실 연속심전도검사.jpg",
-                "size": 93003,
-                "url": "/uploads/attachments/1767126507029-9350fa54255bce82.jpg",
-                "download_url": "/api/download/1767126507029-9350fa54255bce82.jpg",
-                "created_at": "2025-12-30T20:28:27.041Z"
-            },
-            {
-                "id": 15,
-                "name": "기타_사내동호회.jpg",
-                "originalname": "기타_사내동호회.jpg",
-                "size": 892805,
-                "url": "/uploads/attachments/1767126507030-79d536d702420369.jpg",
-                "download_url": "/api/download/1767126507030-79d536d702420369.jpg",
-                "created_at": "2025-12-30T20:28:27.041Z"
-            }
-        ],
-        "comments": [
-            {
-                "id": 8,
-                "post_id": 31,
-                "author_id": "01568",
-                "author_name": "최윤아",
-                "content": "{\n    \"success\": true,\n    \"data\": {\n        \"id\": 31,\n        \"title\": \"kkkkk\",\n        \"content\": \"&lt;p&gt;&amp;lt;script&amp;gt;alert('1234')&amp;lt;/script&amp;gt;&lt;/p&gt;\\r\\n\\r\\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\\r\\n\\r\\n&lt;p&gt;&amp;lt;script&amp;gt;alert('1234')&amp;lt;/script&amp;gt;&lt;/p&gt;\\r\\n\\r\\n&lt;p&gt;&amp;lt;script&amp;gt;alert('1234')&amp;lt;/script&amp;gt;&lt;/p&gt;\\r\\n\\r\\n&lt;p&gt;&amp;lt;script&amp;gt;alert('1234')&amp;lt;/script&amp;gt;&lt;/p&gt;\\r\\n\\r\\n&lt;p&gt;&amp;lt;script&amp;gt;alert('1234')&amp;lt;/script&amp;gt;&lt;/p&gt;\\r\\n\\r\\n&lt;p&gt;&amp;lt;script&amp;gt;alert('1234')&amp;lt;/script&amp;gt;&lt;/p&gt;\\r\\n\\r\\n&lt;p&gt;&amp;lt;script&amp;gt;alert('1234')&amp;lt;/script&amp;gt;&lt;/p&gt;\\r\\n\\r\\n&lt;p&gt;&amp;lt;script&amp;gt;alert('1234')&amp;lt;/script&amp;gt;&lt;/p&gt;\\r\\n\\r\\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\\r\\n\",\n        \"author_name\": \"최윤아\",\n        \"author_id\": \"01568\",\n        \"company_name\": \"대웅그룹\",\n        \"company_no\": \"45\",\n        \"created_at\": \"202",
-                "created_at": "2025-12-31 05:37",
-                "is_deleted": true
-            },
-            {
-                "id": 9,
-                "post_id": 31,
-                "author_id": "01568",
-                "author_name": "최윤아",
-                "content": "uthor_name\": \"최윤아\",\n        \"author_id\": \"01568\",\n        \"company_name\": \"대웅그룹\",\n        \"company_no\": \"45\",\n        \"created_at\": \"202",
-                "created_at": "2025-12-31 05:41",
-                "is_deleted": false
-            },
-            {
-                "id": 10,
-                "post_id": 31,
-                "author_id": "01568",
-                "author_name": "최윤아",
-                "content": "&lt;script&gt;alert('1234')&lt;/script&gt;",
-                "created_at": "2025-12-31 05:41",
-                "is_deleted": false
-            }
-        ],
-        "step": 1,
-        "is_public": true,
-        "is_deleted": true,
-        "thumbnail": ""
-    },
-    "32": {
-        "id": 32,
-        "title": "테스트 건강제도",
-        "content": "&lt;p&gt;테스트 건강제도&lt;/p&gt;\r\n",
-        "author_name": "dwmaster",
-        "author_id": "dwmaster",
-        "company_name": "대웅그룹",
-        "company_no": "45",
-        "created_at": "2026-01-01T13:31:09.387Z",
-        "updated_at": "2026-01-01T13:31:09.387Z",
-        "view_count": 20,
-        "comment_count": 1,
-        "like_count": 0,
-        "board_type": "health-policy",
-        "step": 1,
-        "tag": "[&quot;테스트 건강제도1&quot;,&quot;테스트 건강제도2&quot;,&quot;테스트 건강제도3&quot;,&quot;테스트 건강제도4&quot;,&quot;테스트 건강제도5&quot;,&quot;테스트 건강제도7&quot;,&quot;테스트 건강제도9&quot;,&quot;테스트 건강제도10&quot;,&quot;테스트 건강제도11&quot;,&quot;테스트 건강제도222&quot;]",
-        "attachments": [
-            {
-                "id": 16,
-                "name": "신체_안마의자.jpg",
-                "originalname": "신체_안마의자.jpg",
-                "size": 281089,
-                "url": "/uploads/attachments/1767274269374-a897c4fa09da0a61.jpg",
-                "download_url": "/api/download/1767274269374-a897c4fa09da0a61.jpg",
-                "created_at": "2026-01-01T13:31:09.387Z"
-            }
-        ],
-        "comments": [
-            {
-                "id": 12,
-                "post_id": 32,
-                "author_id": "01568",
-                "author_name": "최윤아",
-                "content": "테스트",
-                "created_at": "2026-01-01 22:38",
-                "is_deleted": false
-            }
-        ],
-        "is_public": true,
-        "is_deleted": false,
-        "thumbnail": "/uploads/thumbnails/1767274269389-1c67b9d5366eb053.jpg",
-        "category_code": "WELFARE",
-        "category_name": "복리후생"
-    },
     "33": {
         "id": 33,
         "title": "[이벤트] 임직원 건강을 지키는 플랫폼 '비즈케어'의 새 이름을 지어주세요!",
@@ -1039,13 +609,59 @@
         "company_no": "45",
         "created_at": "2026-01-05T11:03:11.429Z",
         "updated_at": "2026-01-05T11:03:11.429Z",
-        "view_count": 3,
-        "comment_count": 0,
+        "view_count": 10,
+        "comment_count": 5,
         "like_count": 0,
         "board_type": "health-programs",
         "tag": "[\"이벤트 당첨\",\"AI코치\"]",
         "attachments": [],
-        "comments": [],
+        "comments": [
+            {
+                "id": 13,
+                "post_id": 34,
+                "author_id": "99990",
+                "author_name": "이태한",
+                "content": "평소에 건강 관리 어떻게 해야 할지 고민이었는데 도움 많이 됐습니다. 좋은 서비스 감사합니다!",
+                "created_at": "2026-01-06",
+                "is_deleted": false
+            },
+            {
+                "id": 14,
+                "post_id": 34,
+                "author_id": "99991",
+                "author_name": "최윤아",
+                "content": "챗봇 UI가 깔끔해서 쓰기 편했습니다. 앞으로 기능이 더 늘어나면 자주 사용할 것 같아요.",
+                "created_at": "2026-01-06",
+                "is_deleted": false
+            },
+            {
+                "id": 15,
+                "post_id": 34,
+                "author_id": "99992",
+                "author_name": "송승연",
+                "content": "설문 참여 완료했습니다! 개인 맞춤형 건강기능식품이라니 기대되네요 👍",
+                "created_at": "2026-01-06",
+                "is_deleted": false
+            },
+            {
+                "id": 16,
+                "post_id": 34,
+                "author_id": "99993",
+                "author_name": "한선우",
+                "content": "건강 관련해서 막연했던 부분을 정리해줘서 유용했어요. 인터뷰도 기회 되면 참여해보고 싶네요.",
+                "created_at": "2026-01-05",
+                "is_deleted": false
+            },
+            {
+                "id": 17,
+                "post_id": 34,
+                "author_id": "99994",
+                "author_name": "천수진",
+                "content": "AI코치 사용해봤는데 생각보다 질문이 디테일해서 좋았습니다! 설문 참여했는데 선물도 주신다니 감사합니다 😊",
+                "created_at": "2026-01-04",
+                "is_deleted": false
+            }
+        ],
         "step": 0,
         "is_public": true,
         "is_deleted": false,
@@ -1061,7 +677,7 @@
         "company_no": "45",
         "created_at": "2026-01-05T11:04:41.810Z",
         "updated_at": "2026-01-05T11:05:29.894Z",
-        "view_count": 18,
+        "view_count": 19,
         "comment_count": 0,
         "like_count": 0,
         "board_type": "health-programs",
